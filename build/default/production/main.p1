@@ -27,16 +27,16 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S1305 . . . ]
 "28640
 [v _LATCbits `VS1305 ~T0 @X0 0 e@3963 ]
-"80 main.c
+"82 main.c
 [c E17484 0 1 2 3 4 5 .. ]
 [n E17484 . MAC_NOT_OK MAC_OK RADIO_NOT_OK RADIO_OK INVALID_BUFFER_LEN MCAST_RE_KEYING_NEEDED  ]
 [v F17541 `(v ~T0 @X0 0 tf3`*uc`uc`E17484 ]
 [v F17546 `(v ~T0 @X0 0 tf1`uc ]
 "162 mcc_generated_files/LoRaWAN/lorawan.h
 [v _LORAWAN_Init `(v ~T0 @X0 0 ef2`*F17541`*F17546 ]
-"67 main.c
+"69 main.c
 [v _RxDataDone `(v ~T0 @X0 0 ef3`*uc`uc`E17484 ]
-"68
+"70
 [v _RxJoinResponse `(v ~T0 @X0 0 ef1`uc ]
 "489 mcc_generated_files/LoRaWAN/lorawan.h
 [v _LORAWAN_SetNetworkSessionKey `(v ~T0 @X0 0 ef1`*uc ]
@@ -44,7 +44,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _LORAWAN_SetApplicationSessionKey `(v ~T0 @X0 0 ef1`*uc ]
 "399
 [v _LORAWAN_SetDeviceAddress `(v ~T0 @X0 0 ef1`ul ]
-"84 main.c
+"86 main.c
 [c E17492 0 1 .. ]
 [n E17492 . OTAA ABP  ]
 [c E17469 0 1 2 3 4 5 6 7 8 9 10 11 12 .. ]
@@ -53,15 +53,15 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _LORAWAN_Join `(E17469 ~T0 @X0 0 ef1`E17492 ]
 "1529
 [v _LORAWAN_Mainloop `(v ~T0 @X0 0 ef ]
-"55 main.c
+"57 main.c
 [v _flash `(v ~T0 @X0 0 ef ]
-"54
+"56
 [v _sendPacket `(v ~T0 @X0 0 ef ]
 [v F17113 `(v ~T0 @X0 1 tf1`ul ]
 "161 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic18.h
 [v __delay `JF17113 ~T0 @X0 0 e ]
 [p i __delay ]
-"111 main.c
+"113 main.c
 [c E17496 0 1 .. ]
 [n E17496 . UNCNF CNF  ]
 "197 mcc_generated_files/LoRaWAN/lorawan.h
@@ -16451,30 +16451,30 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;radio_driver_hal.h: 65: uint8_t HALDIO5PinValue(void);
 [; ;mcc.h: 80: void SYSTEM_Initialize(void);
 [; ;mcc.h: 93: void OSCILLATOR_Initialize(void);
-[; ;main.c: 54: void sendPacket(void);
-[; ;main.c: 55: void flash(void);
-"58 main.c
+[; ;main.c: 56: void sendPacket(void);
+[; ;main.c: 57: void flash(void);
+"60 main.c
 [v _portNumber `i ~T0 @X0 1 e ]
 [i _portNumber
 -> 2 `i
 ]
-[; ;main.c: 58: int portNumber = 2;
-"59
+[; ;main.c: 60: int portNumber = 2;
+"61
 [v _payload `ui ~T0 @X0 -> -> 1 `i `ux e ]
-[; ;main.c: 59: uint16_t payload[1];
-"60
+[; ;main.c: 61: uint16_t payload[1];
+"62
 [v _JoinedServer `uc ~T0 @X0 1 e ]
 [i _JoinedServer
 -> -> 0 `i `uc
 ]
-[; ;main.c: 60: uint8_t JoinedServer = 0;
-"61
+[; ;main.c: 62: uint8_t JoinedServer = 0;
+"63
 [v _count `i ~T0 @X0 1 e ]
 [i _count
 -> 1 `i
 ]
-[; ;main.c: 61: int count = 1;
-"64
+[; ;main.c: 63: int count = 1;
+"66
 [v _nwkSKey `uc ~T0 @X0 -> 16 `i e ]
 [i _nwkSKey
 :U ..
@@ -16496,8 +16496,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 104 `i `uc
 ..
 ]
-[; ;main.c: 64: uint8_t nwkSKey[16] = {0x3C, 0xA0, 0xD6, 0x06, 0x60, 0x6E, 0x12, 0xD5, 0xDA, 0xA8, 0x15, 0x79, 0xE3, 0x70, 0x99, 0x68};
-"65
+[; ;main.c: 66: uint8_t nwkSKey[16] = {0x3C, 0xA0, 0xD6, 0x06, 0x60, 0x6E, 0x12, 0xD5, 0xDA, 0xA8, 0x15, 0x79, 0xE3, 0x70, 0x99, 0x68};
+"67
 [v _appSKey `uc ~T0 @X0 -> 16 `i e ]
 [i _appSKey
 :U ..
@@ -16519,111 +16519,111 @@ Version 3.2 HI-TECH Software Intermediate Code
 -> -> 147 `i `uc
 ..
 ]
-[; ;main.c: 65: uint8_t appSKey[16] = {0x42, 0x04, 0x91, 0x09, 0x13, 0x54, 0x4A, 0x49, 0xCE, 0xA4, 0x01, 0xF6, 0x39, 0x27, 0xA4, 0x93};
-"66
+[; ;main.c: 67: uint8_t appSKey[16] = {0x42, 0x04, 0x91, 0x09, 0x13, 0x54, 0x4A, 0x49, 0xCE, 0xA4, 0x01, 0xF6, 0x39, 0x27, 0xA4, 0x93};
+"68
 [v _devAddr `ul ~T0 @X0 1 e ]
 [i _devAddr
 -> -> -> 25984 `i `l `ul
 ]
-[; ;main.c: 66: uint32_t devAddr = 0x00006580;
-[; ;main.c: 67: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status);
-[; ;main.c: 68: void RxJoinResponse(bool status);
-"70
+[; ;main.c: 68: uint32_t devAddr = 0x00006580;
+[; ;main.c: 69: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status);
+[; ;main.c: 70: void RxJoinResponse(bool status);
+"72
 [v _main `(v ~T0 @X0 1 ef ]
-"71
+"73
 {
-[; ;main.c: 70: void main(void)
-[; ;main.c: 71: {
+[; ;main.c: 72: void main(void)
+[; ;main.c: 73: {
 [e :U _main ]
 [f ]
-[; ;main.c: 73: SYSTEM_Initialize();
-"73
+[; ;main.c: 75: SYSTEM_Initialize();
+"75
 [e ( _SYSTEM_Initialize ..  ]
-[; ;main.c: 76: (INTCONbits.GIE = 1);
-"76
-[e = . . _INTCONbits 1 2 -> -> 1 `i `uc ]
-[; ;main.c: 77: (INTCONbits.PEIE = 1);
-"77
-[e = . . _INTCONbits 1 1 -> -> 1 `i `uc ]
-[; ;main.c: 78: do { LATCbits.LATC2 = 1; } while(0);
+[; ;main.c: 78: (INTCONbits.GIE = 1);
 "78
+[e = . . _INTCONbits 1 2 -> -> 1 `i `uc ]
+[; ;main.c: 79: (INTCONbits.PEIE = 1);
+"79
+[e = . . _INTCONbits 1 1 -> -> 1 `i `uc ]
+[; ;main.c: 80: do { LATCbits.LATC2 = 1; } while(0);
+"80
 [e :U 1932 ]
 {
 [e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
 }
 [e :U 1931 ]
-[; ;main.c: 80: LORAWAN_Init(RxDataDone, RxJoinResponse);
-"80
-[e ( _LORAWAN_Init (2 , &U _RxDataDone &U _RxJoinResponse ]
-[; ;main.c: 81: LORAWAN_SetNetworkSessionKey(nwkSKey);
-"81
-[e ( _LORAWAN_SetNetworkSessionKey (1 &U _nwkSKey ]
-[; ;main.c: 82: LORAWAN_SetApplicationSessionKey(appSKey);
+[; ;main.c: 82: LORAWAN_Init(RxDataDone, RxJoinResponse);
 "82
-[e ( _LORAWAN_SetApplicationSessionKey (1 &U _appSKey ]
-[; ;main.c: 83: LORAWAN_SetDeviceAddress(devAddr);
+[e ( _LORAWAN_Init (2 , &U _RxDataDone &U _RxJoinResponse ]
+[; ;main.c: 83: LORAWAN_SetNetworkSessionKey(nwkSKey);
 "83
-[e ( _LORAWAN_SetDeviceAddress (1 _devAddr ]
-[; ;main.c: 84: LORAWAN_Join(ABP);
+[e ( _LORAWAN_SetNetworkSessionKey (1 &U _nwkSKey ]
+[; ;main.c: 84: LORAWAN_SetApplicationSessionKey(appSKey);
 "84
-[e ( _LORAWAN_Join (1 . `E17492 1 ]
-[; ;main.c: 86: while(JoinedServer == 0){
+[e ( _LORAWAN_SetApplicationSessionKey (1 &U _appSKey ]
+[; ;main.c: 85: LORAWAN_SetDeviceAddress(devAddr);
+"85
+[e ( _LORAWAN_SetDeviceAddress (1 _devAddr ]
+[; ;main.c: 86: LORAWAN_Join(ABP);
 "86
+[e ( _LORAWAN_Join (1 . `E17492 1 ]
+[; ;main.c: 88: while(JoinedServer == 0){
+"88
 [e $U 1933  ]
 [e :U 1934 ]
 {
-[; ;main.c: 87: LORAWAN_Mainloop();
-"87
+[; ;main.c: 89: LORAWAN_Mainloop();
+"89
 [e ( _LORAWAN_Mainloop ..  ]
-[; ;main.c: 88: do { LATCbits.LATC2 = 0; } while(0);
-"88
+[; ;main.c: 90: do { LATCbits.LATC2 = 0; } while(0);
+"90
 [e :U 1938 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1937 ]
-"89
+"91
 }
 [e :U 1933 ]
-"86
+"88
 [e $ == -> _JoinedServer `i -> 0 `i 1934  ]
 [e :U 1935 ]
-"91
-[v _flag `i ~T0 @X0 1 a ]
-[; ;main.c: 89: }
-[; ;main.c: 91: int flag = 5;
-[e = _flag -> 5 `i ]
-[; ;main.c: 93: while (1)
 "93
-[e :U 1940 ]
-[; ;main.c: 94: {
-"94
-{
-[; ;main.c: 95: LORAWAN_Mainloop();
+[v _flag `i ~T0 @X0 1 a ]
+[; ;main.c: 91: }
+[; ;main.c: 93: int flag = 5;
+[e = _flag -> 5 `i ]
+[; ;main.c: 95: while (1)
 "95
-[e ( _LORAWAN_Mainloop ..  ]
-[; ;main.c: 96: flag++;
+[e :U 1940 ]
+[; ;main.c: 96: {
 "96
-[e ++ _flag -> 1 `i ]
-[; ;main.c: 98: if(flag > 10){
+{
+[; ;main.c: 97: LORAWAN_Mainloop();
+"97
+[e ( _LORAWAN_Mainloop ..  ]
+[; ;main.c: 98: flag++;
 "98
+[e ++ _flag -> 1 `i ]
+[; ;main.c: 100: if(flag > 10){
+"100
 [e $ ! > _flag -> 10 `i 1942  ]
 {
-[; ;main.c: 99: flag = 0;
-"99
-[e = _flag -> 0 `i ]
-[; ;main.c: 100: flash();
-"100
-[e ( _flash ..  ]
-[; ;main.c: 101: sendPacket();
+[; ;main.c: 101: flag = 0;
 "101
-[e ( _sendPacket ..  ]
+[e = _flag -> 0 `i ]
+[; ;main.c: 102: flash();
 "102
+[e ( _flash ..  ]
+[; ;main.c: 103: sendPacket();
+"103
+[e ( _sendPacket ..  ]
+"104
 }
 [e :U 1942 ]
-[; ;main.c: 102: }
-[; ;main.c: 103: for(int x = 0; x < 1000; x++) _delay((unsigned long)((1)*(16000000/4000.0)));
-"103
+[; ;main.c: 104: }
+[; ;main.c: 105: for(int x = 0; x < 1000; x++) _delay((unsigned long)((1)*(16000000/4000.0)));
+"105
 {
 [v _x `i ~T0 @X0 1 a ]
 [e = _x -> 0 `i ]
@@ -16635,79 +16635,79 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $ < _x -> 1000 `i 1943  ]
 [e :U 1944 ]
 }
-"105
+"107
 }
 [e :U 1939 ]
-"93
+"95
 [e $U 1940  ]
 [e :U 1941 ]
-[; ;main.c: 105: }
-[; ;main.c: 106: }
-"106
+[; ;main.c: 107: }
+[; ;main.c: 108: }
+"108
 [e :UE 1929 ]
 }
-"108
+"110
 [v _sendPacket `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 108: void sendPacket(void){
+[; ;main.c: 110: void sendPacket(void){
 [e :U _sendPacket ]
 [f ]
-[; ;main.c: 110: payload[0] = 0xFF00;
-"110
+[; ;main.c: 112: payload[0] = 0xFF00;
+"112
 [e = *U + &U _payload * -> -> -> 0 `i `ui `ux -> -> # *U &U _payload `ui `ux -> 65280 `ui ]
-[; ;main.c: 111: LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
-"111
-[e ( _LORAWAN_Send (4 , , , . `E17496 0 -> _portNumber `uc -> &U _payload `*v -> -> # _payload `ui `uc ]
-[; ;main.c: 113: count++;
+[; ;main.c: 113: LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
 "113
-[e ++ _count -> 1 `i ]
-[; ;main.c: 115: }
+[e ( _LORAWAN_Send (4 , , , . `E17496 0 -> _portNumber `uc -> &U _payload `*v -> -> # _payload `ui `uc ]
+[; ;main.c: 115: count++;
 "115
+[e ++ _count -> 1 `i ]
+[; ;main.c: 117: }
+"117
 [e :UE 1946 ]
 }
-"117
+"119
 [v _RxDataDone `(v ~T0 @X0 1 ef3`*uc`uc`E17484 ]
-"118
+"120
 {
-[; ;main.c: 117: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)
-[; ;main.c: 118: {
+[; ;main.c: 119: void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)
+[; ;main.c: 120: {
 [e :U _RxDataDone ]
-"117
+"119
 [v _pData `*uc ~T0 @X0 1 r1 ]
 [v _dataLength `uc ~T0 @X0 1 r2 ]
 [v _status `E17484 ~T0 @X0 1 r3 ]
-"118
+"120
 [f ]
-[; ;main.c: 119: }
-"119
+[; ;main.c: 121: }
+"121
 [e :UE 1947 ]
 }
-"121
-[v _RxJoinResponse `(v ~T0 @X0 1 ef1`uc ]
-"122
-{
-[; ;main.c: 121: void RxJoinResponse(bool status)
-[; ;main.c: 122: {
-[e :U _RxJoinResponse ]
-"121
-[v _status `uc ~T0 @X0 1 r1 ]
-"122
-[f ]
-[; ;main.c: 123: JoinedServer = 1;
 "123
-[e = _JoinedServer -> -> 1 `i `uc ]
-[; ;main.c: 124: }
+[v _RxJoinResponse `(v ~T0 @X0 1 ef1`uc ]
 "124
+{
+[; ;main.c: 123: void RxJoinResponse(bool status)
+[; ;main.c: 124: {
+[e :U _RxJoinResponse ]
+"123
+[v _status `uc ~T0 @X0 1 r1 ]
+"124
+[f ]
+[; ;main.c: 125: JoinedServer = 1;
+"125
+[e = _JoinedServer -> -> 1 `i `uc ]
+[; ;main.c: 126: }
+"126
 [e :UE 1948 ]
 }
-"126
+"128
 [v _flash `(v ~T0 @X0 1 ef ]
 {
-[; ;main.c: 126: void flash(void){
+[; ;main.c: 128: void flash(void){
 [e :U _flash ]
 [f ]
-[; ;main.c: 127: for(uint8_t x = 0; x < 10; x++){
-"127
+[; ;main.c: 129: for(uint8_t x = 0; x < 10; x++){
+"129
 {
 [v _x `uc ~T0 @X0 1 a ]
 [e = _x -> -> 0 `i `uc ]
@@ -16715,36 +16715,36 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $U 1951  ]
 [e :U 1950 ]
 {
-[; ;main.c: 128: do { LATCbits.LATC2 = ~LATCbits.LATC2; } while(0);
-"128
+[; ;main.c: 130: do { LATCbits.LATC2 = ~LATCbits.LATC2; } while(0);
+"130
 [e :U 1955 ]
 {
 [e = . . _LATCbits 0 2 -> ~ -> . . _LATCbits 0 2 `i `uc ]
 }
 [e :U 1954 ]
-[; ;main.c: 129: _delay((unsigned long)((25)*(16000000/4000.0)));
-"129
-[e ( __delay (1 -> * -> -> 25 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
-[; ;main.c: 130: _delay((unsigned long)((25)*(16000000/4000.0)));
-"130
-[e ( __delay (1 -> * -> -> 25 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+[; ;main.c: 131: _delay((unsigned long)((25)*(16000000/4000.0)));
 "131
+[e ( __delay (1 -> * -> -> 25 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+[; ;main.c: 132: _delay((unsigned long)((25)*(16000000/4000.0)));
+"132
+[e ( __delay (1 -> * -> -> 25 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"133
 }
-"127
+"129
 [e ++ _x -> -> 1 `i `uc ]
 [e $ < -> _x `i -> 10 `i 1950  ]
 [e :U 1951 ]
-"131
+"133
 }
-[; ;main.c: 131: }
-[; ;main.c: 132: do { LATCbits.LATC2 = 0; } while(0);
-"132
+[; ;main.c: 133: }
+[; ;main.c: 134: do { LATCbits.LATC2 = 0; } while(0);
+"134
 [e :U 1958 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
 [e :U 1957 ]
-[; ;main.c: 133: }
-"133
+[; ;main.c: 135: }
+"135
 [e :UE 1949 ]
 }

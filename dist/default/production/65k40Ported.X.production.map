@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.41\dat\en_msgs.txt -cs \
   -h+dist/default/production\65k40Ported.X.production.sym \
   --cmf=dist/default/production\65k40Ported.X.production.cmf -z -Q18LF65K40 \
-  -oC:\Users\user\AppData\Local\Temp\s94o.2 \
+  -oC:\Users\user\AppData\Local\Temp\sea0.2 \
   -Mdist/default/production/65k40Ported.X.production.map -E1 -ver=XC8 \
   -ASTACK=06FEh-07ffh -pstack=STACK -ACODE=00h-07FFFh -ACONST=00h-07FFFh \
   -ASMALLCONST=0800h-08FFhx120 -AMEDIUMCONST=0800h-07FFFh -ACOMRAM=01h-05Fh \
@@ -23,7 +23,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\user\AppData\Local\Temp\s94o.obj \
+  C:\Users\user\AppData\Local\Temp\sea0.obj \
   dist/default/production\65k40Ported.X.production.obj 
 
 Object code version is 3.11
@@ -36,7 +36,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\user\AppData\Local\Temp\s94o.obj
+C:\Users\user\AppData\Local\Temp\sea0.obj
                 stack                               6FE      6FE      102      6FE       2
                 init                                 8E       8E        8        4       0
                 reset_vec                             0        0        4        0       0
@@ -1152,17 +1152,17 @@ SwTimersInterrupt@i                                       cstackBANK0  000086
 SwTimersInterrupt@ticksToNextTimerEvent                   cstackBANK0  000082
 SwTimersInterrupt@timeElapsed                             cstackBANK0  00007E
 SystemBlockingWaitMs@ms                                   cstackBANK0  000060
-TMR1_ISR@CountCallBack                                    bssCOMRAM    000042
+TMR1_ISR@CountCallBack                                    bssCOMRAM    00003C
 TMR1_ReadTimer@readVal                                    cstackBANK0  000064
 TMR1_SetInterruptHandler@InterruptHandler                 cstackBANK0  000060
 TMR1_WriteTimer@timerVal                                  cstackBANK0  000060
 TMR_GetDeltaTime@retVal                                   bssCOMRAM    000030
-TMR_GetDeltaTime@tmrVal                                   bssCOMRAM    000040
+TMR_GetDeltaTime@tmrVal                                   bssCOMRAM    000042
 TMR_OverrideRemaining@oldReloadVal                        cstackBANK0  000070
 TMR_OverrideRemaining@ticksRemaining                      cstackBANK0  000068
 TMR_OverrideRemaining@tmrVal                              cstackBANK0  00006E
-TMR_SwapTimer@oldVal                                      bssCOMRAM    00003E
-TMR_SwapTimer@retVal                                      bssCOMRAM    00003C
+TMR_SwapTimer@oldVal                                      bssCOMRAM    000040
+TMR_SwapTimer@retVal                                      bssCOMRAM    00003E
 TMR_SwapTimer@timerVal                                    cstackBANK0  000066
 UpdateCfList@bufferLength                                 cstackBANK0  0000A0
 UpdateCfList@channelIndex                                 cstackBANK0  0000A5
@@ -1209,9 +1209,9 @@ ValidateTxPower@result                                    cstackBANK0  000060
 ValidateTxPower@txPowerNew                                cstackBANK0  000061
 _AESCmac                                                  text145      0011A4
 _AESEncode                                                text149      001954
-_AESEncode$1346                                           cstackBANK0  000081
-_AESEncode$1347                                           cstackBANK0  000083
-_AESEncode$1348                                           cstackBANK0  000085
+_AESEncode$40                                             cstackBANK0  000081
+_AESEncode$41                                             cstackBANK0  000083
+_AESEncode$42                                             cstackBANK0  000085
 _AESEncodeLoRa                                            text148      005CA2
 _ANSELA                                                   (abs)        000E92
 _ANSELB                                                   (abs)        000E9A
@@ -1250,7 +1250,7 @@ _EXT_INT_Initialize                                       text21       0050D2
 _EnableChannels                                           text87       00602C
 _EnableChannels1                                          text88       005022
 _EncKeySchedule                                           text151      002CDC
-_EncKeySchedule$1332                                      cstackBANK0  000064
+_EncKeySchedule$26                                        cstackBANK0  000064
 _EncodeShiftRow                                           text150      0039E4
 _EncryptFRMPayload                                        text98       002BBA
 _ExecuteDevStatus                                         text91       006176
@@ -1309,7 +1309,7 @@ _IOCBPbits                                                (abs)        000E95
 _IncludeMacCommandsResponse                               text95       001F84
 _InitDefault433Channels                                   text190      004F0C
 _InitDefault868Channels                                   text189      0057B0
-_JoinedServer                                             bssBANK1     00017E
+_JoinedServer                                             bssBANK1     00017D
 _LATA                                                     (abs)        000F79
 _LATB                                                     (abs)        000F7A
 _LATC                                                     (abs)        000F7B
@@ -1327,7 +1327,7 @@ _LORAWAN_Init                                             text152      0053FE
 _LORAWAN_Join                                             text120      004640
 _LORAWAN_LinkCheckCallback                                text37       002F14
 _LORAWAN_LinkCheckConfigure                               text177      003128
-_LORAWAN_LinkCheckConfigure$2319                          cstackBANK0  0000A2
+_LORAWAN_LinkCheckConfigure$1034                          cstackBANK0  0000A2
 _LORAWAN_Mainloop                                         text29       00573A
 _LORAWAN_PlatformInit                                     text9        005DA0
 _LORAWAN_ReceiveWindow1Callback                           text39       003FC8
@@ -1341,9 +1341,9 @@ _LORAWAN_SetChannelIdStatus                               text77       005A22
 _LORAWAN_SetDeviceAddress                                 text27       005F40
 _LORAWAN_SetNetworkSessionKey                             text26       005C08
 _LORAWAN_TxDone                                           text107      0008BC
-_LORAWAN_TxDone$3265                                      cstackBANK0  0000BA
-_LORAWAN_TxDone$3266                                      cstackBANK0  0000BE
-_LORAWAN_TxDone$5060                                      cstackBANK0  0000C7
+_LORAWAN_TxDone$1988                                      cstackBANK0  0000BA
+_LORAWAN_TxDone$1989                                      cstackBANK0  0000BE
+_LORAWAN_TxDone$5058                                      cstackBANK0  0000C7
 _MacExecuteCommands                                       text64       0024BE
 _ODCONA                                                   (abs)        000E90
 _ODCONB                                                   (abs)        000E98
@@ -1378,14 +1378,14 @@ _RADIO_DIO4                                               text43       005F70
 _RADIO_DIO5                                               text42       005F58
 _RADIO_FHSSChangeChannel                                  text48       0059F4
 _RADIO_FSKPacketSent                                      text106      003228
-_RADIO_FSKPacketSent$3766                                 cstackBANK0  0000D8
+_RADIO_FSKPacketSent$2509                                 cstackBANK0  0000D8
 _RADIO_FSKPayloadReady                                    text54       0045A2
 _RADIO_GetPacketSnr                                       text96       006208
 _RADIO_GetStatus                                          text110      00620E
 _RADIO_Init                                               text160      002326
 _RADIO_ReadRandom                                         text155      0048D0
 _RADIO_ReceiveStart                                       text117      002168
-_RADIO_ReceiveStart$3748                                  cstackBANK0  0000AC
+_RADIO_ReceiveStart$2491                                  cstackBANK0  0000AC
 _RADIO_ReceiveStop                                        text116      005FB8
 _RADIO_RegisterRead                                       text163      005CC8
 _RADIO_RegisterWrite                                      text167      005E5C
@@ -1405,9 +1405,9 @@ _RADIO_SetModulation                                      text130      0061E4
 _RADIO_SetOutputPower                                     text125      0061D4
 _RADIO_SetSpreadingFactor                                 text129      0061DC
 _RADIO_Transmit                                           text135      001D9C
-_RADIO_Transmit$3745                                      cstackBANK0  0000B1
+_RADIO_Transmit$2488                                      cstackBANK0  0000B1
 _RADIO_TxDone                                             text51       004504
-_RADIO_TxDone$3761                                        cstackBANK0  0000D8
+_RADIO_TxDone$2504                                        cstackBANK0  0000D8
 _RADIO_UnhandledInterrupt                                 text50       005DC0
 _RADIO_WatchdogTimeout                                    text31       00585A
 _RADIO_WriteConfiguration                                 text136      000D72
@@ -2879,8 +2879,8 @@ __ptext97                                                 text97       0046CC
 __ptext98                                                 text98       002BBA
 __ptext99                                                 text99       00431E
 __ramtop                                                  ramtop       000800
-__rcon                                                    bssCOMRAM    000045
-__roundCounter                                            bssCOMRAM    000046
+__rcon                                                    bssCOMRAM    000046
+__roundCounter                                            bssCOMRAM    000047
 __size_of_AESCmac                                         (abs)        000000
 __size_of_AESEncode                                       (abs)        000000
 __size_of_AESEncodeLoRa                                   (abs)        000000
@@ -3106,10 +3106,10 @@ _aesBuffer                                                bssBANK1     0001B5
 _allocatedTimers                                          bssBANK0     0000FF
 _appSKey                                                  dataBANK1    0001D7
 _bandwidth                                                mediumconst  007F8D
-_dioStatus                                                bssCOMRAM    000047
+_dioStatus                                                bssCOMRAM    000045
 _flash                                                    text2        0052C6
 _loRa                                                     bssBANK2     000200
-_localDioStatus                                           bssBANK1     00017D
+_localDioStatus                                           bssBANK1     00017E
 _macBuffer                                                bssBIGRAM    0005EF
 _macEndDevCmdReplyLen                                     mediumconst  007F9B
 _main                                                     text0        003C3C
@@ -3189,7 +3189,7 @@ FUNCTION INFORMATION:
 
  *************** function _main *****************
  Defined at:
-		line 70 in file "main.c"
+		line 72 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3227,7 +3227,7 @@ Total ram usage:        5 bytes
 
  *************** function _sendPacket *****************
  Defined at:
-		line 108 in file "main.c"
+		line 110 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3257,7 +3257,7 @@ Total ram usage:        0 bytes
 
  *************** function _flash *****************
  Defined at:
-		line 126 in file "main.c"
+		line 128 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -3544,7 +3544,7 @@ Total ram usage:        0 bytes
 		line 191 in file "mcc_generated_files/tmr1.c"
  Parameters:    Size  Location     Type
   InterruptHan    2    0[BANK0 ] PTR void 
-		 -> TMR_ISR_lora(1), TMR1_DefaultInterruptHandler(1), 
+		 -> TMR1_DefaultInterruptHandler(1), TMR_ISR_lora(1), 
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
@@ -3566,8 +3566,8 @@ Total ram usage:        2 bytes
  This function calls:
 		Nothing
  This function is called by:
-		_TMR1_Initialize
 		_TMR_ISR_Lora_Init
+		_TMR1_Initialize
  This function uses a non-reentrant model
 
 
@@ -3726,7 +3726,7 @@ Total ram usage:        0 bytes
 		line 180 in file "mcc_generated_files/pin_manager.c"
  Parameters:    Size  Location     Type
   InterruptHan    2    0[BANK0 ] PTR void 
-		 -> DIO2_ISR_Lora(1), IOCBF4_DefaultInterruptHandler(1), 
+		 -> IOCBF4_DefaultInterruptHandler(1), DIO2_ISR_Lora(1), 
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
@@ -3748,8 +3748,8 @@ Total ram usage:        2 bytes
  This function calls:
 		Nothing
  This function is called by:
-		_PIN_MANAGER_Initialize
 		_DIO2_ISR_Lora_Init
+		_PIN_MANAGER_Initialize
  This function uses a non-reentrant model
 
 
@@ -3912,7 +3912,7 @@ Total ram usage:        2 bytes
 		line 114 in file "mcc_generated_files/ext_int.c"
  Parameters:    Size  Location     Type
   InterruptHan    2    0[BANK0 ] PTR void 
-		 -> DIO5_ISR_Lora(1), INT2_DefaultInterruptHandler(1), 
+		 -> INT2_DefaultInterruptHandler(1), DIO5_ISR_Lora(1), 
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
@@ -3934,8 +3934,8 @@ Total ram usage:        2 bytes
  This function calls:
 		Nothing
  This function is called by:
-		_EXT_INT_Initialize
 		_DIO5_ISR_Lora_Init
+		_EXT_INT_Initialize
  This function uses a non-reentrant model
 
 
@@ -3944,7 +3944,7 @@ Total ram usage:        2 bytes
 		line 73 in file "mcc_generated_files/ext_int.c"
  Parameters:    Size  Location     Type
   InterruptHan    2    0[BANK0 ] PTR void 
-		 -> DIO1_ISR_Lora(1), INT1_DefaultInterruptHandler(1), 
+		 -> INT1_DefaultInterruptHandler(1), DIO1_ISR_Lora(1), 
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
@@ -3966,8 +3966,8 @@ Total ram usage:        2 bytes
  This function calls:
 		Nothing
  This function is called by:
-		_EXT_INT_Initialize
 		_DIO1_ISR_Lora_Init
+		_EXT_INT_Initialize
  This function uses a non-reentrant model
 
 
@@ -3976,7 +3976,7 @@ Total ram usage:        2 bytes
 		line 155 in file "mcc_generated_files/ext_int.c"
  Parameters:    Size  Location     Type
   InterruptHan    2    0[BANK0 ] PTR void 
-		 -> DIO0_ISR_Lora(1), INT0_DefaultInterruptHandler(1), 
+		 -> INT0_DefaultInterruptHandler(1), DIO0_ISR_Lora(1), 
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
@@ -3998,8 +3998,8 @@ Total ram usage:        2 bytes
  This function calls:
 		Nothing
  This function is called by:
-		_EXT_INT_Initialize
 		_DIO0_ISR_Lora_Init
+		_EXT_INT_Initialize
  This function uses a non-reentrant model
 
 
@@ -5304,7 +5304,7 @@ Total ram usage:        0 bytes
 
  *************** function _RxJoinResponse *****************
  Defined at:
-		line 121 in file "main.c"
+		line 123 in file "main.c"
  Parameters:    Size  Location     Type
   status          1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -6262,7 +6262,7 @@ Total ram usage:        2 bytes
   confirmed       1  127[BANK0 ] enum E17381
   result          1  126[BANK0 ] enum E17354
  Return value:  Size  Location     Type
-                  1    wreg      enum E17469
+                  1    wreg      enum E17354
  Registers used:
 		wreg, fsr0l, fsr0h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, prodl, prodh, cstack
  Tracked objects:
@@ -6284,9 +6284,9 @@ Total ram usage:        7 bytes
 		_RADIO_Transmit
 		_SelectChannelForTransmission
  This function is called by:
-		_sendPacket
 		_AutomaticReplyCallback
 		_LORAWAN_RxDone
+		_sendPacket
  This function uses a non-reentrant model
 
 
@@ -6470,7 +6470,7 @@ Total ram usage:        4 bytes
 		line 2205 in file "mcc_generated_files/LoRaWAN/lorawan.c"
  Parameters:    Size  Location     Type
   buffer          2   64[BANK0 ] PTR unsigned char 
-		 -> radioBuffer(271), LORAWAN_RxDone@hdr(2), payload(2), NULL(0), 
+		 -> payload(2), radioBuffer(271), LORAWAN_RxDone@hdr(2), NULL(0), 
   bufferLength    1   66[BANK0 ] unsigned char 
   dir             1   67[BANK0 ] unsigned char 
   frameCounter    4   68[BANK0 ] unsigned long 
@@ -6959,7 +6959,7 @@ Total ram usage:        0 bytes
 
  *************** function _RxDataDone *****************
  Defined at:
-		line 117 in file "main.c"
+		line 119 in file "main.c"
  Parameters:    Size  Location     Type
   pData           2    0[BANK0 ] PTR unsigned char 
 		 -> radioBuffer(271), LORAWAN_RxDone@hdr(2), NULL(0), 
@@ -7242,7 +7242,7 @@ Total ram usage:        1 bytes
   result          1  132[BANK0 ] enum E17354
   bufferIndex     1  131[BANK0 ] unsigned char 
  Return value:  Size  Location     Type
-                  1    wreg      enum E17469
+                  1    wreg      enum E17354
  Registers used:
 		wreg, fsr0l, fsr0h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, prodl, prodh, cstack
  Tracked objects:
@@ -8087,7 +8087,7 @@ Total ram usage:        9 bytes
   k1             16   16[BANK1 ] unsigned char [16]
   k2             16    0[BANK1 ] unsigned char [16]
   ptr             2   96[BANK1 ] PTR unsigned char 
-		 -> radioBuffer(271), LORAWAN_RxDone@hdr(2), macBuffer(271), NULL(0), 
+		 -> radioBuffer(271), LORAWAN_RxDone@hdr(2), NULL(0), macBuffer(271), 
   i               1  101[BANK1 ] unsigned char 
   j               1  100[BANK1 ] unsigned char 
   n               1   99[BANK1 ] unsigned char 
@@ -9747,27 +9747,27 @@ Total ram usage:        8 bytes
 		 -> LORAWAN_RxDone@computedMic(4), Channels(224), loRa.activationParameters.applicationEui(8), loRa.activationParameters.deviceEui(8), 
 		 -> macBuffer(271), loRa.activationParameters(105), loRa(245), 
   s1              2    2[BANK0 ] PTR const void 
-		 -> LORAWAN_RxDone@hdr.cfList(16), radioBuffer.cfList(16), RadioConfiguration.syncWord(8), RadioConfiguration(54), 
-		 -> FskSyncWordBuff(3), UpdateCfList@joinAccept(2), DefaultChannels433(42), DefaultChannels868(42), 
-		 -> AESCmac@y(16), AssembleEncryptionBlock@frameCounter(4), ComputeSessionKeys@joinAcceptBuffer(2), PrepareJoinRequestFrame@mic(4), 
-		 -> loRa.devNonce(2), loRa.fCntUp.valueLow(2), aesBuffer(16), radioBuffer(271), 
-		 -> LORAWAN_RxDone@hdr(2), loRa.activationParameters.applicationKey(16), loRa.activationParameters.applicationSessionKey(16), loRa.activationParameters.networkSessionKey(16), 
-		 -> loRa.activationParameters.deviceAddress(4), loRa.activationParameters.applicationEui(8), loRa.activationParameters.deviceEui(8), loRa.activationParameters.mcastApplicationSessionKey(16), 
+		 -> LORAWAN_RxDone@hdr.cfList(16), radioBuffer.cfList(16), payload(2), appSKey(16), 
+		 -> nwkSKey(16), RadioConfiguration.syncWord(8), RadioConfiguration(54), FskSyncWordBuff(3), 
+		 -> UpdateCfList@joinAccept(2), DefaultChannels433(42), DefaultChannels868(42), AESCmac@y(16), 
+		 -> AssembleEncryptionBlock@frameCounter(4), ComputeSessionKeys@joinAcceptBuffer(2), PrepareJoinRequestFrame@mic(4), loRa.devNonce(2), 
+		 -> loRa.fCntUp.valueLow(2), aesBuffer(16), radioBuffer(271), LORAWAN_RxDone@hdr(2), 
+		 -> loRa.activationParameters.applicationKey(16), loRa.activationParameters.applicationSessionKey(16), loRa.activationParameters.networkSessionKey(16), loRa.activationParameters.deviceAddress(4), 
+		 -> loRa.activationParameters.applicationEui(8), loRa.activationParameters.deviceEui(8), NULL(0), loRa.activationParameters.mcastApplicationSessionKey(16), 
 		 -> loRa.activationParameters.mcastNetworkSessionKey(16), loRa.activationParameters.mcastDeviceAddress(4), loRa.fCntUp(4), loRa.activationParameters(105), 
-		 -> loRa(245), payload(2), appSKey(16), nwkSKey(16), 
-		 -> NULL(0), 
+		 -> loRa(245), 
   n               2    4[BANK0 ] unsigned int 
  Auto vars:     Size  Location     Type
   s               2    8[BANK0 ] PTR const unsigned char 
-		 -> LORAWAN_RxDone@hdr.cfList(16), radioBuffer.cfList(16), RadioConfiguration.syncWord(8), RadioConfiguration(54), 
-		 -> FskSyncWordBuff(3), UpdateCfList@joinAccept(2), DefaultChannels433(42), DefaultChannels868(42), 
-		 -> AESCmac@y(16), AssembleEncryptionBlock@frameCounter(4), ComputeSessionKeys@joinAcceptBuffer(2), PrepareJoinRequestFrame@mic(4), 
-		 -> loRa.devNonce(2), loRa.fCntUp.valueLow(2), aesBuffer(16), radioBuffer(271), 
-		 -> LORAWAN_RxDone@hdr(2), loRa.activationParameters.applicationKey(16), loRa.activationParameters.applicationSessionKey(16), loRa.activationParameters.networkSessionKey(16), 
-		 -> loRa.activationParameters.deviceAddress(4), loRa.activationParameters.applicationEui(8), loRa.activationParameters.deviceEui(8), loRa.activationParameters.mcastApplicationSessionKey(16), 
+		 -> LORAWAN_RxDone@hdr.cfList(16), radioBuffer.cfList(16), payload(2), appSKey(16), 
+		 -> nwkSKey(16), RadioConfiguration.syncWord(8), RadioConfiguration(54), FskSyncWordBuff(3), 
+		 -> UpdateCfList@joinAccept(2), DefaultChannels433(42), DefaultChannels868(42), AESCmac@y(16), 
+		 -> AssembleEncryptionBlock@frameCounter(4), ComputeSessionKeys@joinAcceptBuffer(2), PrepareJoinRequestFrame@mic(4), loRa.devNonce(2), 
+		 -> loRa.fCntUp.valueLow(2), aesBuffer(16), radioBuffer(271), LORAWAN_RxDone@hdr(2), 
+		 -> loRa.activationParameters.applicationKey(16), loRa.activationParameters.applicationSessionKey(16), loRa.activationParameters.networkSessionKey(16), loRa.activationParameters.deviceAddress(4), 
+		 -> loRa.activationParameters.applicationEui(8), loRa.activationParameters.deviceEui(8), NULL(0), loRa.activationParameters.mcastApplicationSessionKey(16), 
 		 -> loRa.activationParameters.mcastNetworkSessionKey(16), loRa.activationParameters.mcastDeviceAddress(4), loRa.fCntUp(4), loRa.activationParameters(105), 
-		 -> loRa(245), payload(2), appSKey(16), nwkSKey(16), 
-		 -> NULL(0), 
+		 -> loRa(245), 
   d               2    6[BANK0 ] PTR unsigned char 
 		 -> RadioConfiguration(54), UpdateCfList@frequency(4), AESCmac@x(16), AESEncodeLoRa@useKey(16), 
 		 -> ComputeMic@mic(4), ExtractMic@mic(4), aesBuffer(16), radioBuffer(271), 

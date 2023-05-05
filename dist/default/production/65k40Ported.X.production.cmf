@@ -251,7 +251,7 @@ text219 CODE 0 626A 626A 2 1
 bssBIGRAM BIGRAM 1 4E0 4E0 21E 1
 bssCOMRAM COMRAM 1 30 30 18 1
 mediumconst MEDIUMCONST 0 7E6C 7E6C 194 1
-$C:\Users\user\AppData\Local\Temp\s94o.obj
+$C:\Users\user\AppData\Local\Temp\sea0.obj
 idloc IDLOC 0 200000 200000 10 1
 stack STACK 2 6FE 6FE 102 1
 init CODE 0 8E 8E 8 1
@@ -1418,8 +1418,8 @@ FF0 text136 CODE >677:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/Lo
 6184 text113 CODE >1100:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 6186 text113 CODE >1101:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 6188 text113 CODE >1102:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
-6260 text112 CODE >117:C:\Users\user\Desktop\65k40Ported.X\main.c
 6260 text112 CODE >119:C:\Users\user\Desktop\65k40Ported.X\main.c
+6260 text112 CODE >121:C:\Users\user\Desktop\65k40Ported.X\main.c
 4D26 text111 CODE >915:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 4D26 text111 CODE >917:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 4D2A text111 CODE >918:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
@@ -2025,9 +2025,9 @@ C88 text107 CODE >457:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/Lo
 2614 text64 CODE >1580:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 2632 text64 CODE >1649:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 263A text64 CODE >1650:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
-6202 text63 CODE >121:C:\Users\user\Desktop\65k40Ported.X\main.c
 6202 text63 CODE >123:C:\Users\user\Desktop\65k40Ported.X\main.c
-6206 text63 CODE >124:C:\Users\user\Desktop\65k40Ported.X\main.c
+6202 text63 CODE >125:C:\Users\user\Desktop\65k40Ported.X\main.c
+6206 text63 CODE >126:C:\Users\user\Desktop\65k40Ported.X\main.c
 5BB4 text62 CODE >1104:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 5BB4 text62 CODE >1106:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
 5BB6 text62 CODE >1107:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoRaWAN/lorawan.c
@@ -2748,118 +2748,118 @@ FC text56 CODE >1153:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoR
 5EE4 text3 CODE >114:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/mcc.c
 5EE8 text3 CODE >115:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/mcc.c
 5EEC text3 CODE >116:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/mcc.c
-52C6 text2 CODE >126:C:\Users\user\Desktop\65k40Ported.X\main.c
-52C6 text2 CODE >127:C:\Users\user\Desktop\65k40Ported.X\main.c
-52CA text2 CODE >128:C:\Users\user\Desktop\65k40Ported.X\main.c
-52E2 text2 CODE >129:C:\Users\user\Desktop\65k40Ported.X\main.c
-52F4 text2 CODE >130:C:\Users\user\Desktop\65k40Ported.X\main.c
-5306 text2 CODE >127:C:\Users\user\Desktop\65k40Ported.X\main.c
-5310 text2 CODE >132:C:\Users\user\Desktop\65k40Ported.X\main.c
-5312 text2 CODE >133:C:\Users\user\Desktop\65k40Ported.X\main.c
-5E20 text1 CODE >108:C:\Users\user\Desktop\65k40Ported.X\main.c
+52C6 text2 CODE >128:C:\Users\user\Desktop\65k40Ported.X\main.c
+52C6 text2 CODE >129:C:\Users\user\Desktop\65k40Ported.X\main.c
+52CA text2 CODE >130:C:\Users\user\Desktop\65k40Ported.X\main.c
+52E2 text2 CODE >131:C:\Users\user\Desktop\65k40Ported.X\main.c
+52F4 text2 CODE >132:C:\Users\user\Desktop\65k40Ported.X\main.c
+5306 text2 CODE >129:C:\Users\user\Desktop\65k40Ported.X\main.c
+5310 text2 CODE >134:C:\Users\user\Desktop\65k40Ported.X\main.c
+5312 text2 CODE >135:C:\Users\user\Desktop\65k40Ported.X\main.c
 5E20 text1 CODE >110:C:\Users\user\Desktop\65k40Ported.X\main.c
-5E28 text1 CODE >111:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C3C text0 CODE >70:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C3C text0 CODE >73:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C40 text0 CODE >76:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C42 text0 CODE >77:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C44 text0 CODE >78:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C46 text0 CODE >80:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C5A text0 CODE >81:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C68 text0 CODE >82:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C76 text0 CODE >83:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C8A text0 CODE >84:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C90 text0 CODE >86:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C92 text0 CODE >87:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C96 text0 CODE >88:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C98 text0 CODE >86:C:\Users\user\Desktop\65k40Ported.X\main.c
-3C9E text0 CODE >91:C:\Users\user\Desktop\65k40Ported.X\main.c
-3CA4 text0 CODE >95:C:\Users\user\Desktop\65k40Ported.X\main.c
-3CA8 text0 CODE >96:C:\Users\user\Desktop\65k40Ported.X\main.c
-3CAE text0 CODE >98:C:\Users\user\Desktop\65k40Ported.X\main.c
-3CBC text0 CODE >99:C:\Users\user\Desktop\65k40Ported.X\main.c
-3CC0 text0 CODE >100:C:\Users\user\Desktop\65k40Ported.X\main.c
-3CC4 text0 CODE >101:C:\Users\user\Desktop\65k40Ported.X\main.c
-3CC8 text0 CODE >103:C:\Users\user\Desktop\65k40Ported.X\main.c
-43C2 cinit CODE >21906:C:\Users\user\AppData\Local\Temp\s94o.
-43C2 cinit CODE >21908:C:\Users\user\AppData\Local\Temp\s94o.
-43C2 cinit CODE >21911:C:\Users\user\AppData\Local\Temp\s94o.
-43C2 cinit CODE >22031:C:\Users\user\AppData\Local\Temp\s94o.
-43C4 cinit CODE >22032:C:\Users\user\AppData\Local\Temp\s94o.
-43C6 cinit CODE >22033:C:\Users\user\AppData\Local\Temp\s94o.
-43C8 cinit CODE >22034:C:\Users\user\AppData\Local\Temp\s94o.
-43CA cinit CODE >22035:C:\Users\user\AppData\Local\Temp\s94o.
-43CC cinit CODE >22036:C:\Users\user\AppData\Local\Temp\s94o.
-43CE cinit CODE >22037:C:\Users\user\AppData\Local\Temp\s94o.
-43D2 cinit CODE >22038:C:\Users\user\AppData\Local\Temp\s94o.
-43D6 cinit CODE >22039:C:\Users\user\AppData\Local\Temp\s94o.
-43D6 cinit CODE >22040:C:\Users\user\AppData\Local\Temp\s94o.
-43D8 cinit CODE >22041:C:\Users\user\AppData\Local\Temp\s94o.
-43DC cinit CODE >22042:C:\Users\user\AppData\Local\Temp\s94o.
-43DE cinit CODE >22043:C:\Users\user\AppData\Local\Temp\s94o.
-43E0 cinit CODE >22044:C:\Users\user\AppData\Local\Temp\s94o.
-43E2 cinit CODE >22048:C:\Users\user\AppData\Local\Temp\s94o.
-43E4 cinit CODE >22049:C:\Users\user\AppData\Local\Temp\s94o.
-43E6 cinit CODE >22050:C:\Users\user\AppData\Local\Temp\s94o.
-43E8 cinit CODE >22051:C:\Users\user\AppData\Local\Temp\s94o.
-43EA cinit CODE >22052:C:\Users\user\AppData\Local\Temp\s94o.
-43EC cinit CODE >22053:C:\Users\user\AppData\Local\Temp\s94o.
-43EE cinit CODE >22054:C:\Users\user\AppData\Local\Temp\s94o.
-43F2 cinit CODE >22055:C:\Users\user\AppData\Local\Temp\s94o.
-43F6 cinit CODE >22056:C:\Users\user\AppData\Local\Temp\s94o.
-43F6 cinit CODE >22057:C:\Users\user\AppData\Local\Temp\s94o.
-43F8 cinit CODE >22058:C:\Users\user\AppData\Local\Temp\s94o.
-43FC cinit CODE >22059:C:\Users\user\AppData\Local\Temp\s94o.
-43FE cinit CODE >22060:C:\Users\user\AppData\Local\Temp\s94o.
-4400 cinit CODE >22061:C:\Users\user\AppData\Local\Temp\s94o.
-4402 cinit CODE >22065:C:\Users\user\AppData\Local\Temp\s94o.
-4406 cinit CODE >22066:C:\Users\user\AppData\Local\Temp\s94o.
-440A cinit CODE >22067:C:\Users\user\AppData\Local\Temp\s94o.
-440A cinit CODE >22068:C:\Users\user\AppData\Local\Temp\s94o.
-440C cinit CODE >22069:C:\Users\user\AppData\Local\Temp\s94o.
-440E cinit CODE >22070:C:\Users\user\AppData\Local\Temp\s94o.
-4410 cinit CODE >22071:C:\Users\user\AppData\Local\Temp\s94o.
-4412 cinit CODE >22072:C:\Users\user\AppData\Local\Temp\s94o.
-4414 cinit CODE >22073:C:\Users\user\AppData\Local\Temp\s94o.
-4416 cinit CODE >22076:C:\Users\user\AppData\Local\Temp\s94o.
-441A cinit CODE >22077:C:\Users\user\AppData\Local\Temp\s94o.
-441C cinit CODE >22078:C:\Users\user\AppData\Local\Temp\s94o.
-441C cinit CODE >22079:C:\Users\user\AppData\Local\Temp\s94o.
-441E cinit CODE >22080:C:\Users\user\AppData\Local\Temp\s94o.
-4420 cinit CODE >22081:C:\Users\user\AppData\Local\Temp\s94o.
-4422 cinit CODE >22084:C:\Users\user\AppData\Local\Temp\s94o.
-4426 cinit CODE >22085:C:\Users\user\AppData\Local\Temp\s94o.
-4428 cinit CODE >22086:C:\Users\user\AppData\Local\Temp\s94o.
-4428 cinit CODE >22087:C:\Users\user\AppData\Local\Temp\s94o.
-442A cinit CODE >22088:C:\Users\user\AppData\Local\Temp\s94o.
-442C cinit CODE >22089:C:\Users\user\AppData\Local\Temp\s94o.
-442E cinit CODE >22092:C:\Users\user\AppData\Local\Temp\s94o.
-4432 cinit CODE >22093:C:\Users\user\AppData\Local\Temp\s94o.
-4434 cinit CODE >22094:C:\Users\user\AppData\Local\Temp\s94o.
-4434 cinit CODE >22095:C:\Users\user\AppData\Local\Temp\s94o.
-4436 cinit CODE >22096:C:\Users\user\AppData\Local\Temp\s94o.
-4438 cinit CODE >22097:C:\Users\user\AppData\Local\Temp\s94o.
-443A cinit CODE >22100:C:\Users\user\AppData\Local\Temp\s94o.
-443E cinit CODE >22101:C:\Users\user\AppData\Local\Temp\s94o.
-4440 cinit CODE >22102:C:\Users\user\AppData\Local\Temp\s94o.
-4440 cinit CODE >22103:C:\Users\user\AppData\Local\Temp\s94o.
-4442 cinit CODE >22104:C:\Users\user\AppData\Local\Temp\s94o.
-4444 cinit CODE >22105:C:\Users\user\AppData\Local\Temp\s94o.
-4446 cinit CODE >22108:C:\Users\user\AppData\Local\Temp\s94o.
-4448 cinit CODE >22109:C:\Users\user\AppData\Local\Temp\s94o.
-444A cinit CODE >22110:C:\Users\user\AppData\Local\Temp\s94o.
-444C cinit CODE >22111:C:\Users\user\AppData\Local\Temp\s94o.
-444E cinit CODE >22114:C:\Users\user\AppData\Local\Temp\s94o.
-4452 cinit CODE >22115:C:\Users\user\AppData\Local\Temp\s94o.
-4454 cinit CODE >22116:C:\Users\user\AppData\Local\Temp\s94o.
-4454 cinit CODE >22117:C:\Users\user\AppData\Local\Temp\s94o.
-4456 cinit CODE >22118:C:\Users\user\AppData\Local\Temp\s94o.
-4458 cinit CODE >22119:C:\Users\user\AppData\Local\Temp\s94o.
-445A cinit CODE >22125:C:\Users\user\AppData\Local\Temp\s94o.
-445A cinit CODE >22128:C:\Users\user\AppData\Local\Temp\s94o.
-445C cinit CODE >22129:C:\Users\user\AppData\Local\Temp\s94o.
-445E cinit CODE >22130:C:\Users\user\AppData\Local\Temp\s94o.
-4460 cinit CODE >22131:C:\Users\user\AppData\Local\Temp\s94o.
+5E20 text1 CODE >112:C:\Users\user\Desktop\65k40Ported.X\main.c
+5E28 text1 CODE >113:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C3C text0 CODE >72:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C3C text0 CODE >75:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C40 text0 CODE >78:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C42 text0 CODE >79:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C44 text0 CODE >80:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C46 text0 CODE >82:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C5A text0 CODE >83:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C68 text0 CODE >84:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C76 text0 CODE >85:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C8A text0 CODE >86:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C90 text0 CODE >88:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C92 text0 CODE >89:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C96 text0 CODE >90:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C98 text0 CODE >88:C:\Users\user\Desktop\65k40Ported.X\main.c
+3C9E text0 CODE >93:C:\Users\user\Desktop\65k40Ported.X\main.c
+3CA4 text0 CODE >97:C:\Users\user\Desktop\65k40Ported.X\main.c
+3CA8 text0 CODE >98:C:\Users\user\Desktop\65k40Ported.X\main.c
+3CAE text0 CODE >100:C:\Users\user\Desktop\65k40Ported.X\main.c
+3CBC text0 CODE >101:C:\Users\user\Desktop\65k40Ported.X\main.c
+3CC0 text0 CODE >102:C:\Users\user\Desktop\65k40Ported.X\main.c
+3CC4 text0 CODE >103:C:\Users\user\Desktop\65k40Ported.X\main.c
+3CC8 text0 CODE >105:C:\Users\user\Desktop\65k40Ported.X\main.c
+43C2 cinit CODE >21906:C:\Users\user\AppData\Local\Temp\sea0.
+43C2 cinit CODE >21908:C:\Users\user\AppData\Local\Temp\sea0.
+43C2 cinit CODE >21911:C:\Users\user\AppData\Local\Temp\sea0.
+43C2 cinit CODE >22031:C:\Users\user\AppData\Local\Temp\sea0.
+43C4 cinit CODE >22032:C:\Users\user\AppData\Local\Temp\sea0.
+43C6 cinit CODE >22033:C:\Users\user\AppData\Local\Temp\sea0.
+43C8 cinit CODE >22034:C:\Users\user\AppData\Local\Temp\sea0.
+43CA cinit CODE >22035:C:\Users\user\AppData\Local\Temp\sea0.
+43CC cinit CODE >22036:C:\Users\user\AppData\Local\Temp\sea0.
+43CE cinit CODE >22037:C:\Users\user\AppData\Local\Temp\sea0.
+43D2 cinit CODE >22038:C:\Users\user\AppData\Local\Temp\sea0.
+43D6 cinit CODE >22039:C:\Users\user\AppData\Local\Temp\sea0.
+43D6 cinit CODE >22040:C:\Users\user\AppData\Local\Temp\sea0.
+43D8 cinit CODE >22041:C:\Users\user\AppData\Local\Temp\sea0.
+43DC cinit CODE >22042:C:\Users\user\AppData\Local\Temp\sea0.
+43DE cinit CODE >22043:C:\Users\user\AppData\Local\Temp\sea0.
+43E0 cinit CODE >22044:C:\Users\user\AppData\Local\Temp\sea0.
+43E2 cinit CODE >22048:C:\Users\user\AppData\Local\Temp\sea0.
+43E4 cinit CODE >22049:C:\Users\user\AppData\Local\Temp\sea0.
+43E6 cinit CODE >22050:C:\Users\user\AppData\Local\Temp\sea0.
+43E8 cinit CODE >22051:C:\Users\user\AppData\Local\Temp\sea0.
+43EA cinit CODE >22052:C:\Users\user\AppData\Local\Temp\sea0.
+43EC cinit CODE >22053:C:\Users\user\AppData\Local\Temp\sea0.
+43EE cinit CODE >22054:C:\Users\user\AppData\Local\Temp\sea0.
+43F2 cinit CODE >22055:C:\Users\user\AppData\Local\Temp\sea0.
+43F6 cinit CODE >22056:C:\Users\user\AppData\Local\Temp\sea0.
+43F6 cinit CODE >22057:C:\Users\user\AppData\Local\Temp\sea0.
+43F8 cinit CODE >22058:C:\Users\user\AppData\Local\Temp\sea0.
+43FC cinit CODE >22059:C:\Users\user\AppData\Local\Temp\sea0.
+43FE cinit CODE >22060:C:\Users\user\AppData\Local\Temp\sea0.
+4400 cinit CODE >22061:C:\Users\user\AppData\Local\Temp\sea0.
+4402 cinit CODE >22065:C:\Users\user\AppData\Local\Temp\sea0.
+4406 cinit CODE >22066:C:\Users\user\AppData\Local\Temp\sea0.
+440A cinit CODE >22067:C:\Users\user\AppData\Local\Temp\sea0.
+440A cinit CODE >22068:C:\Users\user\AppData\Local\Temp\sea0.
+440C cinit CODE >22069:C:\Users\user\AppData\Local\Temp\sea0.
+440E cinit CODE >22070:C:\Users\user\AppData\Local\Temp\sea0.
+4410 cinit CODE >22071:C:\Users\user\AppData\Local\Temp\sea0.
+4412 cinit CODE >22072:C:\Users\user\AppData\Local\Temp\sea0.
+4414 cinit CODE >22073:C:\Users\user\AppData\Local\Temp\sea0.
+4416 cinit CODE >22076:C:\Users\user\AppData\Local\Temp\sea0.
+441A cinit CODE >22077:C:\Users\user\AppData\Local\Temp\sea0.
+441C cinit CODE >22078:C:\Users\user\AppData\Local\Temp\sea0.
+441C cinit CODE >22079:C:\Users\user\AppData\Local\Temp\sea0.
+441E cinit CODE >22080:C:\Users\user\AppData\Local\Temp\sea0.
+4420 cinit CODE >22081:C:\Users\user\AppData\Local\Temp\sea0.
+4422 cinit CODE >22084:C:\Users\user\AppData\Local\Temp\sea0.
+4426 cinit CODE >22085:C:\Users\user\AppData\Local\Temp\sea0.
+4428 cinit CODE >22086:C:\Users\user\AppData\Local\Temp\sea0.
+4428 cinit CODE >22087:C:\Users\user\AppData\Local\Temp\sea0.
+442A cinit CODE >22088:C:\Users\user\AppData\Local\Temp\sea0.
+442C cinit CODE >22089:C:\Users\user\AppData\Local\Temp\sea0.
+442E cinit CODE >22092:C:\Users\user\AppData\Local\Temp\sea0.
+4432 cinit CODE >22093:C:\Users\user\AppData\Local\Temp\sea0.
+4434 cinit CODE >22094:C:\Users\user\AppData\Local\Temp\sea0.
+4434 cinit CODE >22095:C:\Users\user\AppData\Local\Temp\sea0.
+4436 cinit CODE >22096:C:\Users\user\AppData\Local\Temp\sea0.
+4438 cinit CODE >22097:C:\Users\user\AppData\Local\Temp\sea0.
+443A cinit CODE >22100:C:\Users\user\AppData\Local\Temp\sea0.
+443E cinit CODE >22101:C:\Users\user\AppData\Local\Temp\sea0.
+4440 cinit CODE >22102:C:\Users\user\AppData\Local\Temp\sea0.
+4440 cinit CODE >22103:C:\Users\user\AppData\Local\Temp\sea0.
+4442 cinit CODE >22104:C:\Users\user\AppData\Local\Temp\sea0.
+4444 cinit CODE >22105:C:\Users\user\AppData\Local\Temp\sea0.
+4446 cinit CODE >22108:C:\Users\user\AppData\Local\Temp\sea0.
+4448 cinit CODE >22109:C:\Users\user\AppData\Local\Temp\sea0.
+444A cinit CODE >22110:C:\Users\user\AppData\Local\Temp\sea0.
+444C cinit CODE >22111:C:\Users\user\AppData\Local\Temp\sea0.
+444E cinit CODE >22114:C:\Users\user\AppData\Local\Temp\sea0.
+4452 cinit CODE >22115:C:\Users\user\AppData\Local\Temp\sea0.
+4454 cinit CODE >22116:C:\Users\user\AppData\Local\Temp\sea0.
+4454 cinit CODE >22117:C:\Users\user\AppData\Local\Temp\sea0.
+4456 cinit CODE >22118:C:\Users\user\AppData\Local\Temp\sea0.
+4458 cinit CODE >22119:C:\Users\user\AppData\Local\Temp\sea0.
+445A cinit CODE >22125:C:\Users\user\AppData\Local\Temp\sea0.
+445A cinit CODE >22128:C:\Users\user\AppData\Local\Temp\sea0.
+445C cinit CODE >22129:C:\Users\user\AppData\Local\Temp\sea0.
+445E cinit CODE >22130:C:\Users\user\AppData\Local\Temp\sea0.
+4460 cinit CODE >22131:C:\Users\user\AppData\Local\Temp\sea0.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -2874,6 +2874,7 @@ FC text56 CODE >1153:C:\Users\user\Desktop\65k40Ported.X\mcc_generated_files/LoR
 %SYMTAB
 RADIO_RegisterWrite@value 62 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __size_of_INT1_SetInterruptHandler 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
+_EncKeySchedule$26 64 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 RADIO_TxDone@timeOnAir D4 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 ___lwmod@counter A2 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\65k40Ported.X.production.obj
@@ -2904,7 +2905,7 @@ _UpdateMinMaxChDataRate 4B1E 0 CODE 0 text157 dist/default/production\65k40Porte
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\65k40Ported.X.production.obj
 SystemBlockingWaitMs@ms 60 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 RADIO_SetSpreadingFactor@spreadingFactor 60 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-__mediumconst 7E6C 0 MEDIUMCONST 0 mediumconst C:\Users\user\AppData\Local\Temp\s94o.obj
+__mediumconst 7E6C 0 MEDIUMCONST 0 mediumconst C:\Users\user\AppData\Local\Temp\sea0.obj
 RADIO_DIO0@dioMapping 172 0 BANK1 1 cstackBANK1 dist/default/production\65k40Ported.X.production.obj
 _INT0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _StartReTxTimer 34DA 0 CODE 0 text60 dist/default/production\65k40Ported.X.production.obj
@@ -2918,7 +2919,7 @@ i2SwTimersInterrupt@i 27 0 COMRAM 1 cstackCOMRAM dist/default/production\65k40Po
 __end_of_INTERRUPT_Initialize 623E 0 CODE 0 text20 dist/default/production\65k40Ported.X.production.obj
 _T1CONbits FCF 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 RADIO_SetBandwidth@bandwidth 60 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-_RADIO_Transmit$3745 B1 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_RADIO_Transmit$2488 B1 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __size_of_EXT_INT_Initialize 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __end_of_PIN_MANAGER_IOC 61FC 0 CODE 0 text205 dist/default/production\65k40Ported.X.production.obj
 LORAWAN_Join@bufferIndex E3 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
@@ -3138,7 +3139,7 @@ _WPUE EAE 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _WPUF EB3 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _WPUG EBB 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _WPUH EC0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
-___sp 6FE 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\s94o.obj
+___sp 6FE 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\sea0.obj
 _loRa 200 0 BANK2 1 bssBANK2 dist/default/production\65k40Ported.X.production.obj
 _main 3C3C 0 CODE 0 text0 dist/default/production\65k40Ported.X.production.obj
 _rand 5362 0 CODE 0 text142 dist/default/production\65k40Ported.X.production.obj
@@ -3146,7 +3147,7 @@ btemp 48 0 COMRAM 1 temp dist/default/production\65k40Ported.X.production.obj
 __size_of_RADIO_RxDone 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __HbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\65k40Ported.X.production.obj
 _RADIO_ReceiveStart 2168 0 CODE 0 text117 dist/default/production\65k40Ported.X.production.obj
-start 8E 0 CODE 0 init C:\Users\user\AppData\Local\Temp\s94o.obj
+start 8E 0 CODE 0 init C:\Users\user\AppData\Local\Temp\sea0.obj
 __end_of_LORAWAN_EnterContinuousReceive 4D72 0 CODE 0 text111 dist/default/production\65k40Ported.X.production.obj
 __size_of_RADIO_SetCRC 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __size_of___abdiv 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
@@ -3243,7 +3244,7 @@ __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\65k40Ported.X.product
 __end_of_SystemTimerInit 623A 0 CODE 0 text12 dist/default/production\65k40Ported.X.production.obj
 __end_of_ConfigureRadio 4A24 0 CODE 0 text128 dist/default/production\65k40Ported.X.production.obj
 _SwTimersExecute 4752 0 CODE 0 text30 dist/default/production\65k40Ported.X.production.obj
-_RADIO_ReceiveStart$3748 AC 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_RADIO_ReceiveStart$2491 AC 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __end_of_spreadingFactor 7F9B 0 MEDIUMCONST 0 mediumconst dist/default/production\65k40Ported.X.production.obj
 __end_of_RADIO_RxDone 3E64 0 CODE 0 text52 dist/default/production\65k40Ported.X.production.obj
 RADIO_SetLoRaSyncWord@syncWord 60 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
@@ -3255,11 +3256,11 @@ __size_of_ValidateDataRate 0 0 ABS 0 - dist/default/production\65k40Ported.X.pro
 _ValidateTxPower 5D5C 0 CODE 0 text81 dist/default/production\65k40Ported.X.production.obj
 __size_of_RADIO_RegisterWrite 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _FskSyncWordBuff 7FFC 0 MEDIUMCONST 0 mediumconst dist/default/production\65k40Ported.X.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s94o.obj
-intlevel0 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s94o.obj
-intlevel1 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s94o.obj
-intlevel2 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s94o.obj
-intlevel3 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\s94o.obj
+__accesstop 60 0 ABS 0 - C:\Users\user\AppData\Local\Temp\sea0.obj
+intlevel0 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\sea0.obj
+intlevel1 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\sea0.obj
+intlevel2 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\sea0.obj
+intlevel3 0 0 CODE 0 text C:\Users\user\AppData\Local\Temp\sea0.obj
 __end_of_rxWindowSize 7F8D 0 MEDIUMCONST 0 mediumconst dist/default/production\65k40Ported.X.production.obj
 __ptext100 4858 0 CODE 0 text100 dist/default/production\65k40Ported.X.production.obj
 __ptext101 5680 0 CODE 0 text101 dist/default/production\65k40Ported.X.production.obj
@@ -3480,9 +3481,9 @@ AssembleEncryptionBlock@dir 71 0 BANK0 1 cstackBANK0 dist/default/production\65k
 AESCmac@flag 162 0 BANK1 1 cstackBANK1 dist/default/production\65k40Ported.X.production.obj
 AESCmac@size CE 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __size_of_LORAWAN_SetDeviceAddress 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
-___inthi_sp 754 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\s94o.obj
+___inthi_sp 754 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\sea0.obj
 ConfigureRadioRx@freq 72 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-___intlo_sp 7AA 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\s94o.obj
+___intlo_sp 7AA 0 STACK 2 stack C:\Users\user\AppData\Local\Temp\sea0.obj
 LORAWAN_RxDone@mhdr E7 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 LORAWAN_RxDone@temp ED 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\65k40Ported.X.production.obj
@@ -3686,13 +3687,16 @@ _LORAWAN_Mainloop 573A 0 CODE 0 text29 dist/default/production\65k40Ported.X.pro
 __size_of_LORAWAN_PlatformInit 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __size_of_ValidateDataRange 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _ticksToScheduledInterrupt 58 0 COMRAM 1 dataCOMRAM dist/default/production\65k40Ported.X.production.obj
-_dioStatus 47 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
+_dioStatus 45 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 EncodeShiftRow@temp 62 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __size_of_RADIO_ReleaseData 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __Lpa_nodes0 0 0 ABS 0 pa_nodes0 dist/default/production\65k40Ported.X.production.obj
 __size_of_InitDefault433Channels 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __size_of_IOCBF4_ISR 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __end_of_CreateAllSoftwareTimers 5276 0 CODE 0 text193 dist/default/production\65k40Ported.X.production.obj
+_AESEncode$40 81 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_AESEncode$41 83 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_AESEncode$42 85 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __size_of_GenerateSubkey 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 ValidateDataRate@dataRate 60 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 _LORAWAN_EnterContinuousReceive 4D26 0 CODE 0 text111 dist/default/production\65k40Ported.X.production.obj
@@ -3773,7 +3777,7 @@ _RADIO_SetOutputPower 61D4 0 CODE 0 text125 dist/default/production\65k40Ported.
 __end_of_FindSmallestDataRate 4752 0 CODE 0 text97 dist/default/production\65k40Ported.X.production.obj
 SwTimerReadValue@ticksCount 8B 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __size_of_INT3_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
-TMR1_ISR@CountCallBack 42 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
+TMR1_ISR@CountCallBack 3C 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 __size_of_UpdateChannelIdStatus 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 ___rparam_used 1 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _ComputeMic 5572 0 CODE 0 text144 dist/default/production\65k40Ported.X.production.obj
@@ -3794,7 +3798,7 @@ __end_ofPL8 CE6 0 CODE 0 text107 dist/default/production\65k40Ported.X.productio
 __end_of_SwTimerIsRunning 6058 0 CODE 0 text109 dist/default/production\65k40Ported.X.production.obj
 __size_of_SwTimersInterrupt 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 _DIO2_ISR_Lora 624E 0 CODE 0 text207 dist/default/production\65k40Ported.X.production.obj
-TMR_GetDeltaTime@tmrVal 40 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
+TMR_GetDeltaTime@tmrVal 42 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 __end_of_SYSTEM_Initialize 5EF0 0 CODE 0 text3 dist/default/production\65k40Ported.X.production.obj
 __end_of_ExecuteDutyCycle 5362 0 CODE 0 text90 dist/default/production\65k40Ported.X.production.obj
 ValidateChannelId@channelId 62 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
@@ -3918,7 +3922,7 @@ __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\65k40Ported.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\65k40Ported.X.production.obj
 __end_of_RADIO_SetFSKSyncWord 5B5C 0 CODE 0 text132 dist/default/production\65k40Ported.X.production.obj
 __size_of_UpdateDataRange 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\user\AppData\Local\Temp\s94o.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\user\AppData\Local\Temp\sea0.obj
 __end_of_TMR_GetDeltaTime 4248 0 CODE 0 text186 dist/default/production\65k40Ported.X.production.obj
 __size_of_RADIO_ReceiveStart 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __size_of_LORAWAN_ReceiveWindow1Callback 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
@@ -3927,7 +3931,7 @@ __size_of_SystemTimerInit 0 0 ABS 0 - dist/default/production\65k40Ported.X.prod
 ConfigureRadioTx@dataRate 76 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __Hcomram 0 0 ABS 0 comram dist/default/production\65k40Ported.X.production.obj
 __Hconfig 30000C 0 CONFIG 0 config dist/default/production\65k40Ported.X.production.obj
-_RADIO_FSKPacketSent$3766 D8 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_RADIO_FSKPacketSent$2509 D8 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 _ValidateRxOffset 6058 0 CODE 0 text69 dist/default/production\65k40Ported.X.production.obj
 __end_of_AutomaticReplyCallback 6016 0 CODE 0 text35 dist/default/production\65k40Ported.X.production.obj
 __end_of_RADIO_RegisterWrite 5E7A 0 CODE 0 text167 dist/default/production\65k40Ported.X.production.obj
@@ -3949,9 +3953,9 @@ __Lbank7 0 0 ABS 0 bank7 dist/default/production\65k40Ported.X.production.obj
 __Lcinit 0 0 ABS 0 cinit dist/default/production\65k40Ported.X.production.obj
 __Lconst 0 0 CONST 0 const dist/default/production\65k40Ported.X.production.obj
 _AESEncodeLoRa 5CA2 0 CODE 0 text148 dist/default/production\65k40Ported.X.production.obj
-_LORAWAN_TxDone$3265 BA 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-_LORAWAN_TxDone$3266 BE 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-_LORAWAN_TxDone$5060 C7 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_LORAWAN_TxDone$1988 BA 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_LORAWAN_TxDone$1989 BE 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_LORAWAN_TxDone$5058 C7 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __Lidata 0 0 CODE 0 idata dist/default/production\65k40Ported.X.production.obj
 __Lidloc 200000 0 IDLOC 0 idloc dist/default/production\65k40Ported.X.production.obj
 __end_of_RADIO_WritePower 39DE 0 CODE 0 text137 dist/default/production\65k40Ported.X.production.obj
@@ -4105,10 +4109,9 @@ __S1 6FE 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __S2 800 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __size_of_TMR1_ISR 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 UpdateMinMaxChDataRate@i 61 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-_EncKeySchedule$1332 64 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 LORAWAN_RxDone@hdr F7 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __size_of_ResetParametersForUnconfirmedTransmission 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
-__roundCounter 46 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
+__roundCounter 47 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 RADIO_WriteMode@currentMode 69 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 ExtractMic@bufferLength 6C 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 ?_MacExecuteCommands A4 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
@@ -4210,7 +4213,7 @@ RADIO_WriteMode@opMode 6B 0 BANK0 1 cstackBANK0 dist/default/production\65k40Por
 __end_of_RADIO_GetPacketSnr 620E 0 CODE 0 text96 dist/default/production\65k40Ported.X.production.obj
 _INT3_InterruptHandler 1FB 0 BANK1 1 nvBANK1 dist/default/production\65k40Ported.X.production.obj
 ?_TMR_SwapTimer 66 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-TMR_SwapTimer@oldVal 3E 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
+TMR_SwapTimer@oldVal 40 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 __HnvBANK1 0 0 ABS 0 nvBANK1 dist/default/production\65k40Ported.X.production.obj
 __end_of_SetReceptionNotOkState 4D1C 0 CODE 0 text61 dist/default/production\65k40Ported.X.production.obj
 __Lintentry 0 0 ABS 0 intentry dist/default/production\65k40Ported.X.production.obj
@@ -4239,7 +4242,7 @@ __end_of_AckRetransmissionCallback 33F2 0 CODE 0 text36 dist/default/production\
 __size_of___lmul 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __size_of___wmul 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 CheckMcastFlags@hdr 60 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-TMR_SwapTimer@retVal 3C 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
+TMR_SwapTimer@retVal 3E 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 __LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\65k40Ported.X.production.obj
 __LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\65k40Ported.X.production.obj
 __LbssBANK2 0 0 ABS 0 bssBANK2 dist/default/production\65k40Ported.X.production.obj
@@ -4458,7 +4461,7 @@ __ptext97 46CC 0 CODE 0 text97 dist/default/production\65k40Ported.X.production.
 __ptext98 2BBA 0 CODE 0 text98 dist/default/production\65k40Ported.X.production.obj
 __ptext99 431E 0 CODE 0 text99 dist/default/production\65k40Ported.X.production.obj
 __size_of_DIO0_ISR_Lora_Init 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
-_LORAWAN_LinkCheckConfigure$2319 A2 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_LORAWAN_LinkCheckConfigure$1034 A2 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __end_of_DIO1_ISR_Lora 625A 0 CODE 0 text218 dist/default/production\65k40Ported.X.production.obj
 __end_of_ResetParametersForUnconfirmedTransmission 618A 0 CODE 0 text113 dist/default/production\65k40Ported.X.production.obj
 RADIO_FSKPacketSent@irqFlags DC 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
@@ -4489,7 +4492,7 @@ __end_of_DefaultChannels433 7FD2 0 MEDIUMCONST 0 mediumconst dist/default/produc
 __end_of_DefaultChannels868 7FFC 0 MEDIUMCONST 0 mediumconst dist/default/production\65k40Ported.X.production.obj
 AssembleEncryptionBlock@multicastStatus 70 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 _UpdateJoinSuccessState 3B76 0 CODE 0 text34 dist/default/production\65k40Ported.X.production.obj
-_JoinedServer 17E 0 BANK1 1 bssBANK1 dist/default/production\65k40Ported.X.production.obj
+_JoinedServer 17D 0 BANK1 1 bssBANK1 dist/default/production\65k40Ported.X.production.obj
 __size_of_ValidateRxOffset 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 ?_rand 9C 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __Lcomram 0 0 ABS 0 comram dist/default/production\65k40Ported.X.production.obj
@@ -4543,9 +4546,6 @@ EncryptFRMPayload@key A8 0 BANK0 1 cstackBANK0 dist/default/production\65k40Port
 __size_of_INT2_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 RADIO_RegisterWrite@reg 63 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 __end_of_INT3_CallBack 5EB6 0 CODE 0 text210 dist/default/production\65k40Ported.X.production.obj
-_AESEncode$1346 81 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-_AESEncode$1347 83 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
-_AESEncode$1348 85 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 MacExecuteCommands@ptr AA 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 _timerOverflow 44 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 _SwTimerCreate 56FC 0 CODE 0 text194 dist/default/production\65k40Ported.X.production.obj
@@ -4562,8 +4562,8 @@ GenerateSubkey@k2 A4 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X
 _TMR_ISR_lora 5276 0 CODE 0 text199 dist/default/production\65k40Ported.X.production.obj
 _LORAWAN_LinkCheckCallback 2F14 0 CODE 0 text37 dist/default/production\65k40Ported.X.production.obj
 _ExecuteDevStatus 6176 0 CODE 0 text91 dist/default/production\65k40Ported.X.production.obj
-stackhi 7FF 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s94o.obj
-stacklo 6FE 0 ABS 0 - C:\Users\user\AppData\Local\Temp\s94o.obj
+stackhi 7FF 0 ABS 0 - C:\Users\user\AppData\Local\Temp\sea0.obj
+stacklo 6FE 0 ABS 0 - C:\Users\user\AppData\Local\Temp\sea0.obj
 EncryptFRMPayload@macBufferIndex AA 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 LORAWAN_Send@result DE 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 _EXT_INT_Initialize 50D2 0 CODE 0 text21 dist/default/production\65k40Ported.X.production.obj
@@ -4715,7 +4715,7 @@ __end_of_LORAWAN_SetApplicationSessionKey 59EC 0 CODE 0 text28 dist/default/prod
 _INT1_ISR 622C 0 CODE 0 text216 dist/default/production\65k40Ported.X.production.obj
 _INT2_ISR 6226 0 CODE 0 text212 dist/default/production\65k40Ported.X.production.obj
 _INT3_ISR 6220 0 CODE 0 text209 dist/default/production\65k40Ported.X.production.obj
-_localDioStatus 17D 0 BANK1 1 bssBANK1 dist/default/production\65k40Ported.X.production.obj
+_localDioStatus 17E 0 BANK1 1 bssBANK1 dist/default/production\65k40Ported.X.production.obj
 _RADIO_WatchdogTimeout 585A 0 CODE 0 text31 dist/default/production\65k40Ported.X.production.obj
 ?_GetRx1Freq 60 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 LORAWAN_RxDone@extractedMic E8 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
@@ -4813,7 +4813,7 @@ __Ltext98 0 0 ABS 0 text98 dist/default/production\65k40Ported.X.production.obj
 __Ltext99 0 0 ABS 0 text99 dist/default/production\65k40Ported.X.production.obj
 __end_of_bandwidth 7F94 0 MEDIUMCONST 0 mediumconst dist/default/production\65k40Ported.X.production.obj
 __end_of_UpdateDutyCycle 5AF4 0 CODE 0 text75 dist/default/production\65k40Ported.X.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\user\AppData\Local\Temp\s94o.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\user\AppData\Local\Temp\sea0.obj
 __size_of_ComputeMic 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __size_of_LORAWAN_SetApplicationSessionKey 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __end_of_HALSPICSAssert 6246 0 CODE 0 text171 dist/default/production\65k40Ported.X.production.obj
@@ -4872,7 +4872,7 @@ INT0_SetInterruptHandler@InterruptHandler 60 0 BANK0 1 cstackBANK0 dist/default/
 ?_ExtractMic 6A 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 _TMR_SwapTimer 58C6 0 CODE 0 text183 dist/default/production\65k40Ported.X.production.obj
 __size_of_RADIO_WriteFrequency 0 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
-_RADIO_TxDone$3761 D8 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
+_RADIO_TxDone$2504 D8 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 RADIO_WriteConfiguration@i A0 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 ValidateRxOffset@result 61 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
 RADIO_FSKPayloadReady@i FA 0 BANK0 1 cstackBANK0 dist/default/production\65k40Ported.X.production.obj
@@ -5326,7 +5326,7 @@ __LRAM 1 0 ABS 0 - dist/default/production\65k40Ported.X.production.obj
 __Lbss 0 0 RAM 1 bss dist/default/production\65k40Ported.X.production.obj
 __Lram 0 0 ABS 0 ram dist/default/production\65k40Ported.X.production.obj
 __Lsfr 0 0 ABS 0 sfr dist/default/production\65k40Ported.X.production.obj
-__rcon 45 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
+__rcon 46 0 COMRAM 1 bssCOMRAM dist/default/production\65k40Ported.X.production.obj
 _TMR1_Initialize 55B8 0 CODE 0 text4 dist/default/production\65k40Ported.X.production.obj
 _TMR1_StartTimer 6232 0 CODE 0 text5 dist/default/production\65k40Ported.X.production.obj
 __end_of_ValidateChannelId 5E5C 0 CODE 0 text78 dist/default/production\65k40Ported.X.production.obj

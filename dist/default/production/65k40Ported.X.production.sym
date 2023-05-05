@@ -493,7 +493,7 @@ AESCmac@size CE 0 BANK0 1
 __Hsfr 0 0 ABS 0
 __end_ofPL298 880 0 CODE 0
 __Lsfr 0 0 ABS 0
-__rcon 45 0 COMRAM 1
+__rcon 46 0 COMRAM 1
 __Hbss 0 0 RAM 1
 __CFG_STVREN$ON 0 0 ABS 0
 __Lbss 0 0 RAM 1
@@ -515,7 +515,7 @@ __end_of_ValidateChannelId 5E5C 0 CODE 0
 ?_ExecuteLinkAdr 6D 0 BANK0 1
 __size_of_SwTimerSetCallback 0 0 ABS 0
 _TRISC0 7C18 0 ABS 0
-TMR_SwapTimer@oldVal 3E 0 COMRAM 1
+TMR_SwapTimer@oldVal 40 0 COMRAM 1
 __size_of_UpdateMinMaxChDataRate 0 0 ABS 0
 __end_ofPL398 8AA 0 CODE 0
 __size_of_UpdateJoinInProgress 0 0 ABS 0
@@ -628,7 +628,6 @@ __size_of_DIO1_ISR_Lora_Init 0 0 ABS 0
 __Ltext100 0 0 ABS 0
 __end_of_INT1_SetInterruptHandler 6176 0 CODE 0
 UpdateDutyCycle@dutyCycleNew 60 0 BANK0 1
-_RADIO_TxDone$3761 D8 0 BANK0 1
 __Htext200 0 0 ABS 0
 __Ltext200 0 0 ABS 0
 __ptext100 4858 0 CODE 0
@@ -742,7 +741,7 @@ __end_ofPL46 3002 0 CODE 0
 __end_ofPL84 D4A 0 CODE 0
 __ptext212 6226 0 CODE 0
 __size_of_AssemblePacket 0 0 ABS 0
-TMR1_ISR@CountCallBack 42 0 COMRAM 1
+TMR1_ISR@CountCallBack 3C 0 COMRAM 1
 __size_of_RADIO_ReceiveStart 0 0 ABS 0
 __Htext203 0 0 ABS 0
 ComputeMic@mic D6 0 BANK0 1
@@ -1065,7 +1064,6 @@ __Ltext109 0 0 ABS 0
 __end_ofPL38 2DE4 0 CODE 0
 __end_ofPL76 2ED0 0 CODE 0
 __ptext218 6256 0 CODE 0
-_AESEncode$1347 83 0 BANK0 1
 __end_of_ValidateDataRange 5930 0 CODE 0
 _LORAWAN_Send 3CF6 0 CODE 0
 IncludeMacCommandsResponse@bIncludeInFopts 63 0 BANK0 1
@@ -1093,21 +1091,22 @@ __Ltext138 0 0 ABS 0
 __Ltext119 0 0 ABS 0
 __ptext209 6220 0 CODE 0
 _macBuffer 5EF 0 BIGRAM 1
-_LORAWAN_TxDone$5060 C7 0 BANK0 1
 _RADIO_SetModulation 61E4 0 CODE 0
 __Htext219 0 0 ABS 0
 UpdateFrequency@channelId 64 0 BANK0 1
 InitDefault433Channels@i 6A 0 BANK0 1
 __Ltext219 0 0 ABS 0
-_LORAWAN_TxDone$3265 BA 0 BANK0 1
 __size_of_INT0_SetInterruptHandler 0 0 ABS 0
-_LORAWAN_TxDone$3266 BE 0 BANK0 1
 __ptext119 60EC 0 CODE 0
 __ptext138 4EAE 0 CODE 0
 __ptext157 4B1E 0 CODE 0
 SelectChannelForTransmission@result B1 0 BANK0 1
 __ptext176 624A 0 CODE 0
+_LORAWAN_TxDone$5058 C7 0 BANK0 1
 __CFG_LVP$ON 0 0 ABS 0
+_LORAWAN_TxDone$1988 BA 0 BANK0 1
+_AESEncode$40 81 0 BANK0 1
+_LORAWAN_TxDone$1989 BE 0 BANK0 1
 __size_of_EncKeySchedule 0 0 ABS 0
 _aesBuffer 1B5 0 BANK1 1
 StartReTxTimer@minim 94 0 BANK0 1
@@ -1141,7 +1140,7 @@ __Ltext158 0 0 ABS 0
 __Ltext139 0 0 ABS 0
 __end_of_RADIO_GetPacketSnr 620E 0 CODE 0
 SPI2_Exchange8bit@data 60 0 BANK0 1
-_localDioStatus 17D 0 BANK1 1
+_localDioStatus 17E 0 BANK1 1
 __CFG_FEXTOSC$OFF 0 0 ABS 0
 __ptext139 4DEA 0 CODE 0
 __ptext158 53B0 0 CODE 0
@@ -1240,7 +1239,7 @@ CheckFlags@hdr 60 0 BANK0 1
 TMR_GetDeltaTime@retVal 30 0 COMRAM 1
 _TMR1_ReadTimer 5DE0 0 CODE 0
 ?i2_TMR_SwapTimer 7 0 COMRAM 1
-TMR_GetDeltaTime@tmrVal 40 0 COMRAM 1
+TMR_GetDeltaTime@tmrVal 42 0 COMRAM 1
 _IOCBFbits E93 0 ABS 0
 ConfigureRadioRx@freq 72 0 BANK0 1
 RADIO_Transmit@bufferLen A8 0 BANK0 1
@@ -1261,7 +1260,7 @@ __size_of_IOCBF4_DefaultInterruptHandler 0 0 ABS 0
 RADIO_RxDone@i FA 0 BANK0 1
 __size_of_SwTimerStop 0 0 ABS 0
 _SetCallbackSoftwareTimers 4074 0 CODE 0
-TMR_SwapTimer@retVal 3C 0 COMRAM 1
+TMR_SwapTimer@retVal 3E 0 COMRAM 1
 __size_of_DIO2_ISR_Lora_Init 0 0 ABS 0
 __end_of_RADIO_ReadRandom 4932 0 CODE 0
 __end_of_INT3_SetInterruptHandler 6162 0 CODE 0
@@ -1295,6 +1294,7 @@ AssembleEncryptionBlock@multicastStatus 70 0 BANK0 1
 UpdateCfList@frequency A1 0 BANK0 1
 __end_ofi2_TMR_SwapTimer 5672 0 CODE 0
 _OSCTUNE E48 0 ABS 0
+_AESEncode$41 83 0 BANK0 1
 __HbssBIGRAM 0 0 ABS 0
 _RxDataDone 6260 0 CODE 0
 __LbssBIGRAM 0 0 ABS 0
@@ -1400,7 +1400,7 @@ __ptext4 55B8 0 CODE 0
 UpdateDLSettings@dlRx2Dr 61 0 BANK0 1
 _SystemTimerInit 6236 0 CODE 0
 _RxJoinResponse 6202 0 CODE 0
-_dioStatus 47 0 COMRAM 1
+_dioStatus 45 0 COMRAM 1
 __Htext6 0 0 ABS 0
 __Ltext6 0 0 ABS 0
 __ptext5 6232 0 CODE 0
@@ -1474,9 +1474,11 @@ _ConfigureRadioRx 5C7C 0 CODE 0
 RADIO_WriteMode@opMode 6B 0 BANK0 1
 __end_of_UpdateFrequency 5C7C 0 CODE 0
 __size_of_INT1_SetInterruptHandler 0 0 ABS 0
+_AESEncode$42 85 0 BANK0 1
 HALSPISend@data 61 0 BANK0 1
 LORAWAN_TxDone@found C2 0 BANK0 1
 __end_of_macEndDevCmdReplyLen 7FA2 0 MEDIUMCONST 0
+_RADIO_TxDone$2504 D8 0 BANK0 1
 _PPSLOCKbits DEF 0 ABS 0
 LORAWAN_RxDone@computedMic F0 0 BANK0 1
 __end_of_SetJoinFailState 5BDE 0 CODE 0
@@ -1545,8 +1547,8 @@ _LORAWAN_SetNetworkSessionKey 5C08 0 CODE 0
 RADIO_SetOutputPower@power 60 0 BANK0 1
 __end_of_SwTimersInterrupt 3F08 0 CODE 0
 __end_of_AckRetransmissionCallback 33F2 0 CODE 0
-_RADIO_Transmit$3745 B1 0 BANK0 1
 _SPI2_Initialize 6108 0 CODE 0
+_RADIO_Transmit$2488 B1 0 BANK0 1
 ?_MacExecuteCommands A4 0 BANK0 1
 _TMR1_Initialize 55B8 0 CODE 0
 __end_ofPL234 84C 0 CODE 0
@@ -1688,11 +1690,11 @@ __end_of_ResetParametersForUnconfirmedTransmission 618A 0 CODE 0
 __end_of_AutomaticReplyCallback 6016 0 CODE 0
 __end_of_SystemBlockingWaitMs 5BB4 0 CODE 0
 PrepareSessionKeys@index 70 0 BANK0 1
+_RADIO_FSKPacketSent$2509 D8 0 BANK0 1
 __end_of_ResetParametersForConfirmedTransmission 60E4 0 CODE 0
 __end_of_RADIO_FHSSChangeChannel 5A22 0 CODE 0
 AssemblePacket@fCtrl DA 0 BANK0 1
 ExecuteLinkAdr@ptr 6D 0 BANK0 1
-_RADIO_FSKPacketSent$3766 D8 0 BANK0 1
 _HALDIO5PinValue 621A 0 CODE 0
 _PIN_MANAGER_Initialize 3690 0 CODE 0
 i2_TMR1_WriteTimer 5FE8 0 CODE 0
@@ -1706,6 +1708,7 @@ ConfigureRadio@dataRate 71 0 BANK0 1
 EncryptFRMPayload@dir A3 0 BANK0 1
 __size_of_AutomaticReplyCallback 0 0 ABS 0
 _CheckFlags 5496 0 CODE 0
+_LORAWAN_LinkCheckConfigure$1034 A2 0 BANK0 1
 EncryptFRMPayload@key A8 0 BANK0 1
 _RADIO_ReceiveStop 5FB8 0 CODE 0
 _RADIO_RxDone 3DAE 0 CODE 0
@@ -1752,7 +1755,6 @@ __end_ofPL164 4F56 0 CODE 0
 __end_ofPL354 1456 0 CODE 0
 __end_ofPL392 2160 0 CODE 0
 __end_of_SwTimersExecute 47B6 0 CODE 0
-_AESEncode$1348 85 0 BANK0 1
 RADIO_WriteFrequency@num 75 0 BANK0 1
 SwTimerSetCallback@callback 60 0 BANK0 1
 __size_of_RADIO_DIO0 0 0 ABS 0
@@ -2255,6 +2257,7 @@ _DIO0_ISR_Lora 0 0 ABS 0
 SearchAvailableChannel@channelIndex A6 0 BANK0 1
 _DIO1_ISR_Lora 6256 0 CODE 0
 RADIO_FSKPayloadReady@i FA 0 BANK0 1
+_EncKeySchedule$26 64 0 BANK0 1
 _DIO2_ISR_Lora 624E 0 CODE 0
 _DIO5_ISR_Lora 6252 0 CODE 0
 _AssemblePacket 147C 0 CODE 0
@@ -2269,7 +2272,6 @@ _RADIO_DIO5 5F58 0 CODE 0
 __size_of_INT2_ISR 0 0 ABS 0
 _InitDefault433Channels 4F0C 0 CODE 0
 ValidateTxPower@result 60 0 BANK0 1
-_EncKeySchedule$1332 64 0 BANK0 1
 __size_of___wmul 0 0 ABS 0
 __size_of_UnconfirmedTransmissionCallback 0 0 ABS 0
 __size_of_INTERRUPT_InterruptManager 0 0 ABS 0
@@ -2426,6 +2428,7 @@ AssemblePacket@buffer 167 0 BANK1 1
 ___lldiv@quotient 68 0 BANK0 1
 __end_of_RADIO_Transmit 1F3C 0 CODE 0
 __size_of_sendPacket 0 0 ABS 0
+_RADIO_ReceiveStart$2491 AC 0 BANK0 1
 __end_of_LORAWAN_SetChannelIdStatus 5A50 0 CODE 0
 __end_of_StopAllSoftwareTimers 53FE 0 CODE 0
 __size_of_Random 0 0 ABS 0
@@ -2452,7 +2455,6 @@ __CFG_BOREN$SBORDIS 0 0 ABS 0
 ValidateDataRange@dataRateMin 65 0 BANK0 1
 RADIO_WriteMode@blocking 66 0 BANK0 1
 SelectChannelForTransmission@transmissionType B0 0 BANK0 1
-_RADIO_ReceiveStart$3748 AC 0 BANK0 1
 _LORAWAN_LinkCheckCallback 2F14 0 CODE 0
 __end_of_AssemblePacket 16C6 0 CODE 0
 __end_of_TMR1_ISR 5D5C 0 CODE 0
@@ -2486,7 +2488,7 @@ EncryptFRMPayload@bufferToBeEncrypted AB 0 BANK0 1
 __size_of_LORAWAN_RxTimeout 0 0 ABS 0
 LORAWAN_RxTimeout@i BF 0 BANK0 1
 _GenerateSubkey 33F8 0 CODE 0
-_JoinedServer 17E 0 BANK1 1
+_JoinedServer 17D 0 BANK1 1
 MacExecuteCommands@done A9 0 BANK0 1
 __size_of_RADIO_ReleaseData 0 0 ABS 0
 __end_of_Random 5DA0 0 CODE 0
@@ -2506,8 +2508,7 @@ __end_ofPL30 2A5A 0 CODE 0
 __end_of_RADIO_UnhandledInterrupt 5DE0 0 CODE 0
 __end_ofPL6 430C 0 CODE 0
 SwTimerIsRunning@timerId 60 0 BANK0 1
-_AESEncode$1346 81 0 BANK0 1
-__roundCounter 46 0 COMRAM 1
+__roundCounter 47 0 COMRAM 1
 ___llmod@dividend 60 0 BANK0 1
 __size_of_EXT_INT_Initialize 0 0 ABS 0
 __size_of_SPI2_Exchange8bit 0 0 ABS 0
@@ -2533,7 +2534,6 @@ __CFG_CP$OFF 0 0 ABS 0
 FindSmallestDataRate@i 62 0 BANK0 1
 LORAWAN_RxDone@extractedMic E8 0 BANK0 1
 __CFG_FCMEN$ON 0 0 ABS 0
-_LORAWAN_LinkCheckConfigure$2319 A2 0 BANK0 1
 _AssembleEncryptionBlock 431E 0 CODE 0
 __end_of_ExecuteDevStatus 6180 0 CODE 0
 ValidateChannelMaskCntl@channelMaskCntl 61 0 BANK0 1
@@ -2580,7 +2580,7 @@ bssBIGRAM 4E0 6FD BIGRAM 4E0 1
 %locals
 dist/default/production\65k40Ported.X.production.obj
 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic18lf65k40.h
-C:\Users\user\AppData\Local\Temp\s94o.
+C:\Users\user\AppData\Local\Temp\sea0.
 21906 43C2 0 CODE 0
 21908 43C2 0 CODE 0
 21911 43C2 0 CODE 0
@@ -2661,41 +2661,41 @@ C:\Users\user\AppData\Local\Temp\s94o.
 22130 445E 0 CODE 0
 22131 4460 0 CODE 0
 main.c
-70 3C3C 0 CODE 0
-73 3C3C 0 CODE 0
-76 3C40 0 CODE 0
-77 3C42 0 CODE 0
-78 3C44 0 CODE 0
-80 3C46 0 CODE 0
-81 3C5A 0 CODE 0
-82 3C68 0 CODE 0
-83 3C76 0 CODE 0
-84 3C8A 0 CODE 0
-86 3C90 0 CODE 0
-87 3C92 0 CODE 0
-88 3C96 0 CODE 0
-86 3C98 0 CODE 0
-91 3C9E 0 CODE 0
-95 3CA4 0 CODE 0
-96 3CA8 0 CODE 0
-98 3CAE 0 CODE 0
-99 3CBC 0 CODE 0
-100 3CC0 0 CODE 0
-101 3CC4 0 CODE 0
-103 3CC8 0 CODE 0
+72 3C3C 0 CODE 0
+75 3C3C 0 CODE 0
+78 3C40 0 CODE 0
+79 3C42 0 CODE 0
+80 3C44 0 CODE 0
+82 3C46 0 CODE 0
+83 3C5A 0 CODE 0
+84 3C68 0 CODE 0
+85 3C76 0 CODE 0
+86 3C8A 0 CODE 0
+88 3C90 0 CODE 0
+89 3C92 0 CODE 0
+90 3C96 0 CODE 0
+88 3C98 0 CODE 0
+93 3C9E 0 CODE 0
+97 3CA4 0 CODE 0
+98 3CA8 0 CODE 0
+100 3CAE 0 CODE 0
+101 3CBC 0 CODE 0
+102 3CC0 0 CODE 0
+103 3CC4 0 CODE 0
+105 3CC8 0 CODE 0
 main.c
-108 5E20 0 CODE 0
 110 5E20 0 CODE 0
-111 5E28 0 CODE 0
+112 5E20 0 CODE 0
+113 5E28 0 CODE 0
 main.c
-126 52C6 0 CODE 0
-127 52C6 0 CODE 0
-128 52CA 0 CODE 0
-129 52E2 0 CODE 0
-130 52F4 0 CODE 0
-127 5306 0 CODE 0
-132 5310 0 CODE 0
-133 5312 0 CODE 0
+128 52C6 0 CODE 0
+129 52C6 0 CODE 0
+130 52CA 0 CODE 0
+131 52E2 0 CODE 0
+132 52F4 0 CODE 0
+129 5306 0 CODE 0
+134 5310 0 CODE 0
+135 5312 0 CODE 0
 mcc_generated_files/mcc.c
 107 5ED4 0 CODE 0
 110 5ED4 0 CODE 0
@@ -3477,9 +3477,9 @@ mcc_generated_files/LoRaWAN/lorawan.c
 1109 5BBC 0 CODE 0
 1111 5BC6 0 CODE 0
 main.c
-121 6202 0 CODE 0
 123 6202 0 CODE 0
-124 6206 0 CODE 0
+125 6202 0 CODE 0
+126 6206 0 CODE 0
 mcc_generated_files/LoRaWAN/lorawan.c
 1575 24BE 0 CODE 0
 1577 24BE 0 CODE 0
@@ -4134,8 +4134,8 @@ mcc_generated_files/LoRaWAN/lorawan.c
 927 4D52 0 CODE 0
 929 4D5A 0 CODE 0
 main.c
-117 6260 0 CODE 0
 119 6260 0 CODE 0
+121 6260 0 CODE 0
 mcc_generated_files/LoRaWAN/lorawan.c
 1097 6180 0 CODE 0
 1099 6180 0 CODE 0

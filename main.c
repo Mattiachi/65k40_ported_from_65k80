@@ -5,7 +5,9 @@
  * 
  * IDE:         MPLAB X IDE v3.55 (native is 3.40)
  * 
- * COMPILER:    XC8 v1.41 PRO  (native is 1.38)
+ * COMPILER:    XC8 v1.41 PRO  (native is 1.38) [da testare]
+ *              XC8 v2.41 PRO   [da testare, compila * si nota che comprime meglio il codice]
+ *              XC8 v1.45 PRO   [da testare, compila]
  * 
  * For this microcontroller, that features 32KB as program memory is needed
  * the PRO version of compilator, otherwise the code will exced the memory space
