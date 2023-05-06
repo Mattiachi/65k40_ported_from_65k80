@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC18 PRO Macro Assembler V1.41 build -162212810 
-                                                                                               Fri May 05 19:34:55 2023
+                                                                                               Sat May 06 08:14:45 2023
 
 Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 201701250102
      1                           	processor	18LF65K40
@@ -411,40 +411,40 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
    397  0059A5  87                 	db	135
    398                           
    399                           ;initializer for _appSKey
-   400  0059A6  42                 	db	66
-   401  0059A7  04                 	db	4
-   402  0059A8  91                 	db	145
-   403  0059A9  09                 	db	9
-   404  0059AA  13                 	db	19
-   405  0059AB  54                 	db	84
-   406  0059AC  4A                 	db	74
-   407  0059AD  49                 	db	73
-   408  0059AE  CE                 	db	206
-   409  0059AF  A4                 	db	164
-   410  0059B0  01                 	db	1
-   411  0059B1  F6                 	db	246
-   412  0059B2  39                 	db	57
-   413  0059B3  27                 	db	39
-   414  0059B4  A4                 	db	164
-   415  0059B5  93                 	db	147
+   400  0059A6  45                 	db	69
+   401  0059A7  37                 	db	55
+   402  0059A8  1A                 	db	26
+   403  0059A9  44                 	db	68
+   404  0059AA  B2                 	db	178
+   405  0059AB  99                 	db	153
+   406  0059AC  80                 	db	128
+   407  0059AD  1D                 	db	29
+   408  0059AE  2E                 	db	46
+   409  0059AF  5C                 	db	92
+   410  0059B0  A1                 	db	161
+   411  0059B1  9E                 	db	158
+   412  0059B2  38                 	db	56
+   413  0059B3  A5                 	db	165
+   414  0059B4  03                 	db	3
+   415  0059B5  2A                 	db	42
    416                           
    417                           ;initializer for _nwkSKey
-   418  0059B6  3C                 	db	60
-   419  0059B7  A0                 	db	160
-   420  0059B8  D6                 	db	214
-   421  0059B9  06                 	db	6
-   422  0059BA  60                 	db	96
-   423  0059BB  6E                 	db	110
-   424  0059BC  12                 	db	18
-   425  0059BD  D5                 	db	213
-   426  0059BE  DA                 	db	218
-   427  0059BF  A8                 	db	168
-   428  0059C0  15                 	db	21
-   429  0059C1  79                 	db	121
-   430  0059C2  E3                 	db	227
-   431  0059C3  70                 	db	112
-   432  0059C4  99                 	db	153
-   433  0059C5  68                 	db	104
+   418  0059B6  DC                 	db	220
+   419  0059B7  98                 	db	152
+   420  0059B8  06                 	db	6
+   421  0059B9  0B                 	db	11
+   422  0059BA  22                 	db	34
+   423  0059BB  B5                 	db	181
+   424  0059BC  BA                 	db	186
+   425  0059BD  21                 	db	33
+   426  0059BE  61                 	db	97
+   427  0059BF  B3                 	db	179
+   428  0059C0  A9                 	db	169
+   429  0059C1  95                 	db	149
+   430  0059C2  7C                 	db	124
+   431  0059C3  88                 	db	136
+   432  0059C4  03                 	db	3
+   433  0059C5  1F                 	db	31
    434                           tosu	equ	0xFFF
    435                           tosh	equ	0xFFE
    436                           tosl	equ	0xFFD
@@ -3038,7 +3038,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3024 ;;
   3025 ;; *************** function _main *****************
   3026 ;; Defined at:
-  3027 ;;		line 72 in file "main.c"
+  3027 ;;		line 73 in file "main.c"
   3028 ;; Parameters:    Size  Location     Type
   3029 ;;		None
   3030 ;; Auto vars:     Size  Location     Type
@@ -3081,25 +3081,25 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3066  003C3C                     _main:
   3067                           	opt stack 12
   3068                           
-  3069                           ;main.c: 75: SYSTEM_Initialize();
+  3069                           ;main.c: 76: SYSTEM_Initialize();
   3070                           
   3071                           ; BSR set to: 14
   3072                           ;incstack = 0
   3073  003C3C  EC6A  F02F         	call	_SYSTEM_Initialize	;wreg free
   3074                           
   3075                           ; BSR set to: 0
-  3076                           ;main.c: 78: (INTCONbits.GIE = 1);
+  3076                           ;main.c: 79: (INTCONbits.GIE = 1);
   3077  003C40  8EF2               	bsf	intcon,7,c	;volatile
   3078                           
   3079                           ; BSR set to: 0
-  3080                           ;main.c: 79: (INTCONbits.PEIE = 1);
+  3080                           ;main.c: 80: (INTCONbits.PEIE = 1);
   3081  003C42  8CF2               	bsf	intcon,6,c	;volatile
   3082                           
   3083                           ; BSR set to: 0
   3084  003C44  847B               	bsf	3963,2,c	;volatile
   3085                           
   3086                           ; BSR set to: 0
-  3087                           ;main.c: 82: LORAWAN_Init(RxDataDone, RxJoinResponse);
+  3087                           ;main.c: 83: LORAWAN_Init(RxDataDone, RxJoinResponse);
   3088  003C46  0E60               	movlw	low _RxDataDone
   3089  003C48  6FA8               	movwf	LORAWAN_Init@RxPayload& (0+255),b
   3090  003C4A  0E62               	movlw	high _RxDataDone
@@ -3110,7 +3110,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3095  003C54  6FAB               	movwf	(LORAWAN_Init@RxJoinResponse+1)& (0+255),b
   3096  003C56  ECFF  F029         	call	_LORAWAN_Init	;wreg free
   3097                           
-  3098                           ;main.c: 83: LORAWAN_SetNetworkSessionKey(nwkSKey);
+  3098                           ;main.c: 84: LORAWAN_SetNetworkSessionKey(nwkSKey);
   3099  003C5A  0EE7               	movlw	low _nwkSKey
   3100  003C5C  0100               	movlb	0	; () banked
   3101  003C5E  6F6A               	movwf	LORAWAN_SetNetworkSessionKey@networkSessionKeyNew& (0+255),b
@@ -3118,7 +3118,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3103  003C62  6F6B               	movwf	(LORAWAN_SetNetworkSessionKey@networkSessionKeyNew+1)& (0+255),b
   3104  003C64  EC04  F02E         	call	_LORAWAN_SetNetworkSessionKey	;wreg free
   3105                           
-  3106                           ;main.c: 84: LORAWAN_SetApplicationSessionKey(appSKey);
+  3106                           ;main.c: 85: LORAWAN_SetApplicationSessionKey(appSKey);
   3107  003C68  0ED7               	movlw	low _appSKey
   3108  003C6A  0100               	movlb	0	; () banked
   3109  003C6C  6F6A               	movwf	LORAWAN_SetApplicationSessionKey@applicationSessionKeyNew& (0+255),b
@@ -3126,8 +3126,8 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3111  003C70  6F6B               	movwf	(LORAWAN_SetApplicationSessionKey@applicationSessionKeyNew+1)& (0+255),b
   3112  003C72  ECE3  F02C         	call	_LORAWAN_SetApplicationSessionKey	;wreg free
   3113                           
-  3114                           ;main.c: 85: LORAWAN_SetDeviceAddress(devAddr);
-  3115  003C76  0E80               	movlw	128
+  3114                           ;main.c: 86: LORAWAN_SetDeviceAddress(devAddr);
+  3115  003C76  0E40               	movlw	64
   3116  003C78  0100               	movlb	0	; () banked
   3117  003C7A  6F60               	movwf	LORAWAN_SetDeviceAddress@deviceAddressNew& (0+255),b
   3118  003C7C  0E65               	movlw	101
@@ -3138,16 +3138,16 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3123  003C86  ECA0  F02F         	call	_LORAWAN_SetDeviceAddress	;wreg free
   3124                           
   3125                           ; BSR set to: 2
-  3126                           ;main.c: 86: LORAWAN_Join(ABP);
+  3126                           ;main.c: 87: LORAWAN_Join(ABP);
   3127  003C8A  0E01               	movlw	1
   3128  003C8C  EC20  F023         	call	_LORAWAN_Join
   3129                           
-  3130                           ;main.c: 88: while(JoinedServer == 0){
+  3130                           ;main.c: 89: while(JoinedServer == 0){
   3131  003C90  D003               	goto	l16180
   3132  003C92                     l16176:
   3133                           
   3134                           ; BSR set to: 1
-  3135                           ;main.c: 89: LORAWAN_Mainloop();
+  3135                           ;main.c: 90: LORAWAN_Mainloop();
   3136  003C92  EC9D  F02B         	call	_LORAWAN_Mainloop	;wreg free
   3137  003C96  947B               	bcf	3963,2,c	;volatile
   3138  003C98                     l16180:
@@ -3156,25 +3156,25 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3141  003C9C  E0FA               	bz	l16176
   3142                           
   3143                           ; BSR set to: 1
-  3144                           ;main.c: 91: }
-  3145                           ;main.c: 93: int flag = 5;
+  3144                           ;main.c: 92: }
+  3145                           ;main.c: 94: int flag = 5;
   3146  003C9E  6B76               	clrf	(main@flag+1)& (0+255),b
   3147  003CA0  0E05               	movlw	5
   3148  003CA2  6F75               	movwf	main@flag& (0+255),b
   3149  003CA4                     l16184:
   3150                           
   3151                           ; BSR set to: 1
-  3152                           ;main.c: 96: {
-  3153                           ;main.c: 97: LORAWAN_Mainloop();
+  3152                           ;main.c: 97: {
+  3153                           ;main.c: 98: LORAWAN_Mainloop();
   3154  003CA4  EC9D  F02B         	call	_LORAWAN_Mainloop	;wreg free
   3155                           
-  3156                           ;main.c: 98: flag++;
+  3156                           ;main.c: 99: flag++;
   3157  003CA8  0101               	movlb	1	; () banked
   3158  003CAA  4B75               	infsnz	main@flag& (0+255),f,b
   3159  003CAC  2B76               	incf	(main@flag+1)& (0+255),f,b
   3160                           
   3161                           ; BSR set to: 1
-  3162                           ;main.c: 100: if(flag > 10){
+  3162                           ;main.c: 101: if(flag > 10){
   3163  003CAE  BF76               	btfsc	(main@flag+1)& (0+255),7,b
   3164  003CB0  D00B               	goto	l16196
   3165  003CB2  5176               	movf	(main@flag+1)& (0+255),w,b
@@ -3185,21 +3185,21 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3170  003CBC                     u19770:
   3171                           
   3172                           ; BSR set to: 1
-  3173                           ;main.c: 101: flag = 0;
+  3173                           ;main.c: 102: flag = 0;
   3174  003CBC  6B75               	clrf	main@flag& (0+255),b
   3175  003CBE  6B76               	clrf	(main@flag+1)& (0+255),b
   3176                           
   3177                           ; BSR set to: 1
-  3178                           ;main.c: 102: flash();
+  3178                           ;main.c: 103: flash();
   3179  003CC0  EC63  F029         	call	_flash	;wreg free
   3180                           
   3181                           ; BSR set to: 0
-  3182                           ;main.c: 103: sendPacket();
+  3182                           ;main.c: 104: sendPacket();
   3183  003CC4  EC10  F02F         	call	_sendPacket	;wreg free
   3184  003CC8                     l16196:
   3185                           
-  3186                           ;main.c: 104: }
-  3187                           ;main.c: 105: for(int x = 0; x < 1000; x++) _delay((unsigned long)((1)*(16000000/4000.0)
+  3186                           ;main.c: 105: }
+  3187                           ;main.c: 106: for(int x = 0; x < 1000; x++) _delay((unsigned long)((1)*(16000000/4000.0)
       +                          ));
   3188  003CC8  0101               	movlb	1	; () banked
   3189  003CCA  6B77               	clrf	main@x& (0+255),b
@@ -3262,7 +3262,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3246                           
   3247 ;; *************** function _sendPacket *****************
   3248 ;; Defined at:
-  3249 ;;		line 110 in file "main.c"
+  3249 ;;		line 111 in file "main.c"
   3250 ;; Parameters:    Size  Location     Type
   3251 ;;		None
   3252 ;; Auto vars:     Size  Location     Type
@@ -3297,7 +3297,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3281                           	opt stack 16
   3282                           
   3283                           ; BSR set to: 0
-  3284                           ;main.c: 112: payload[0] = 0xFF00;
+  3284                           ;main.c: 113: payload[0] = 0xFF00;
   3285                           
   3286                           ; BSR set to: 1
   3287                           ;incstack = 0
@@ -3307,7 +3307,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3291  005E26  6FC5               	movwf	_payload& (0+255),b
   3292                           
   3293                           ; BSR set to: 1
-  3294                           ;main.c: 115: count++;
+  3294                           ;main.c: 116: count++;
   3295  005E28  0E02               	movlw	2
   3296  005E2A  6F6B               	movwf	LORAWAN_Send@port& (0+255),b
   3297  005E2C  0EC5               	movlw	low _payload
@@ -3352,7 +3352,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3336                           
   3337 ;; *************** function _flash *****************
   3338 ;; Defined at:
-  3339 ;;		line 128 in file "main.c"
+  3339 ;;		line 129 in file "main.c"
   3340 ;; Parameters:    Size  Location     Type
   3341 ;;		None
   3342 ;; Auto vars:     Size  Location     Type
@@ -3387,7 +3387,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3371                           	opt stack 23
   3372                           
   3373                           ; BSR set to: 1
-  3374                           ;main.c: 129: for(uint8_t x = 0; x < 10; x++){
+  3374                           ;main.c: 130: for(uint8_t x = 0; x < 10; x++){
   3375                           
   3376                           ;incstack = 0
   3377  0052C6  0100               	movlb	0	; () banked
@@ -3409,7 +3409,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3393  0052E0  6E7B               	movwf	3963,c	;volatile
   3394                           
   3395                           ; BSR set to: 0
-  3396                           ;main.c: 131: _delay((unsigned long)((25)*(16000000/4000.0)));
+  3396                           ;main.c: 132: _delay((unsigned long)((25)*(16000000/4000.0)));
   3397  0052E2  0E82               	movlw	130
   3398  0052E4  0100               	movlb	0	; () banked
   3399  0052E6  6F60               	movwf	??_flash& (0+255),b
@@ -3421,7 +3421,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3405  0052F0  D7FC               	bra	u19807
   3406  0052F2  D000               	nop2	
   3407                           
-  3408                           ;main.c: 132: _delay((unsigned long)((25)*(16000000/4000.0)));
+  3408                           ;main.c: 133: _delay((unsigned long)((25)*(16000000/4000.0)));
   3409  0052F4  0E82               	movlw	130
   3410  0052F6  0100               	movlb	0	; () banked
   3411  0052F8  6F60               	movwf	??_flash& (0+255),b
@@ -3442,8 +3442,8 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
   3426                           
   3427                           ; BSR set to: 0
   3428                           
-  3429                           ;main.c: 133: }
-  3430                           ;main.c: 134: do { LATCbits.LATC2 = 0; } while(0);
+  3429                           ;main.c: 134: }
+  3430                           ;main.c: 135: do { LATCbits.LATC2 = 0; } while(0);
   3431  005310  947B               	bcf	3963,2,c	;volatile
   3432                           
   3433                           ; BSR set to: 0
@@ -13666,7 +13666,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
  13536                           
  13537 ;; *************** function _RxJoinResponse *****************
  13538 ;; Defined at:
- 13539 ;;		line 123 in file "main.c"
+ 13539 ;;		line 124 in file "main.c"
  13540 ;; Parameters:    Size  Location     Type
  13541 ;;  status          1    wreg     unsigned char 
  13542 ;; Auto vars:     Size  Location     Type
@@ -13703,7 +13703,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
  13573                           	opt stack 20
  13574                           
  13575                           ; BSR set to: 1
- 13576                           ;main.c: 125: JoinedServer = 1;
+ 13576                           ;main.c: 126: JoinedServer = 1;
  13577                           
  13578                           ; BSR set to: 1
  13579                           ;incstack = 0
@@ -22509,7 +22509,7 @@ Microchip Technology Omniscient Code Generator v1.41 (PRO mode) build 2017012501
  22318                           
  22319 ;; *************** function _RxDataDone *****************
  22320 ;; Defined at:
- 22321 ;;		line 119 in file "main.c"
+ 22321 ;;		line 120 in file "main.c"
  22322 ;; Parameters:    Size  Location     Type
  22323 ;;  pData           2    0[BANK0 ] PTR unsigned char 
  22324 ;;		 -> radioBuffer(271), LORAWAN_RxDone@hdr(2), NULL(0), 
@@ -45591,7 +45591,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V1.41 build -162212810 
-Symbol Table                                                                                   Fri May 05 19:34:55 2023
+Symbol Table                                                                                   Sat May 06 08:14:45 2023
 
                                         ??_LORAWAN_TxDone 00B2  
                               __end_of_DIO3_ISR_Lora_Init 625E  
