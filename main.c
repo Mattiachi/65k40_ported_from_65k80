@@ -109,12 +109,12 @@ void main(void)
 } // End of main
 
 void sendPacket(void){
-    //myLED_SetHigh();
+    myLED_SetHigh();
     payload[0] = 0xFF00;
     LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload)); 
     //printf("Packet #%d sent: temperature value: %d\n\r", count, payload[0]);
     count++;
-    //myLED_SetLow();
+    myLED_SetLow();
 }
 
 void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)

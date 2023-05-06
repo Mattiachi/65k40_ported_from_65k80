@@ -16652,6 +16652,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 111: void sendPacket(void){
 [e :U _sendPacket ]
 [f ]
+[; ;main.c: 112: do { LATCbits.LATC2 = 1; } while(0);
+"112
+[e :U 1949 ]
+{
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+}
+[e :U 1948 ]
 [; ;main.c: 113: payload[0] = 0xFF00;
 "113
 [e = *U + &U _payload * -> -> -> 0 `i `ui `ux -> -> # *U &U _payload `ui `ux -> 65280 `ui ]
@@ -16661,6 +16668,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 116: count++;
 "116
 [e ++ _count -> 1 `i ]
+[; ;main.c: 117: do { LATCbits.LATC2 = 0; } while(0);
+"117
+[e :U 1952 ]
+{
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+}
+[e :U 1951 ]
 [; ;main.c: 118: }
 "118
 [e :UE 1946 ]
@@ -16680,7 +16694,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [f ]
 [; ;main.c: 122: }
 "122
-[e :UE 1947 ]
+[e :UE 1953 ]
 }
 "124
 [v _RxJoinResponse `(v ~T0 @X0 1 ef1`uc ]
@@ -16698,7 +16712,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e = _JoinedServer -> -> 1 `i `uc ]
 [; ;main.c: 127: }
 "127
-[e :UE 1948 ]
+[e :UE 1954 ]
 }
 "129
 [v _flash `(v ~T0 @X0 1 ef ]
@@ -16711,17 +16725,17 @@ Version 3.2 HI-TECH Software Intermediate Code
 {
 [v _x `uc ~T0 @X0 1 a ]
 [e = _x -> -> 0 `i `uc ]
-[e $ < -> _x `i -> 10 `i 1950  ]
-[e $U 1951  ]
-[e :U 1950 ]
+[e $ < -> _x `i -> 10 `i 1956  ]
+[e $U 1957  ]
+[e :U 1956 ]
 {
 [; ;main.c: 131: do { LATCbits.LATC2 = ~LATCbits.LATC2; } while(0);
 "131
-[e :U 1955 ]
+[e :U 1961 ]
 {
 [e = . . _LATCbits 0 2 -> ~ -> . . _LATCbits 0 2 `i `uc ]
 }
-[e :U 1954 ]
+[e :U 1960 ]
 [; ;main.c: 132: _delay((unsigned long)((25)*(16000000/4000.0)));
 "132
 [e ( __delay (1 -> * -> -> 25 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
@@ -16732,19 +16746,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 }
 "130
 [e ++ _x -> -> 1 `i `uc ]
-[e $ < -> _x `i -> 10 `i 1950  ]
-[e :U 1951 ]
+[e $ < -> _x `i -> 10 `i 1956  ]
+[e :U 1957 ]
 "134
 }
 [; ;main.c: 134: }
 [; ;main.c: 135: do { LATCbits.LATC2 = 0; } while(0);
 "135
-[e :U 1958 ]
+[e :U 1964 ]
 {
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
 }
-[e :U 1957 ]
+[e :U 1963 ]
 [; ;main.c: 136: }
 "136
-[e :UE 1949 ]
+[e :UE 1955 ]
 }

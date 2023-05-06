@@ -22152,12 +22152,12 @@ for(int x = 0; x < 1000; x++) _delay((unsigned long)((1)*(16000000/4000.0)));
 }
 
 void sendPacket(void){
-
+do { LATCbits.LATC2 = 1; } while(0);
 payload[0] = 0xFF00;
 LORAWAN_Send(UNCNF, portNumber, &payload, sizeof(payload));
 
 count++;
-
+do { LATCbits.LATC2 = 0; } while(0);
 }
 
 void RxDataDone(uint8_t* pData, uint8_t dataLength, OpStatus_t status)
