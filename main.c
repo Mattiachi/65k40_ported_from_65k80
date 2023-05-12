@@ -35,7 +35,7 @@
  *  PIC connection with respect to Olimex Radio Module (https://www.olimex.com/Products/IoT/LoRa/)
  *  RB0 (48) -> DIO0
  *  RB1 (47) -> DIO1    
- *  RB2 (46) -> DIO5    
+ *  RB2 (46) -> DIO5    sono da aggiornare sti pin
  *  RB4 (44) -> DIO2    
  *  RC0 (30) -> NRESET  
  *  RC1 (29) -> NSS
